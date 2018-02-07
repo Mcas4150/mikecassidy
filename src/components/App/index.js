@@ -18,7 +18,7 @@ class App extends Component {
           To get going say hi
         </p>
 
-        {"123".split("").map((e, i) => <Second key={i} name="whatever"/>)}
+        {"123456789".split("").map((e, i) => <Second key={i} name="whatever"/>)}
         <Footer />
       </div>
 

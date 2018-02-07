@@ -8,8 +8,9 @@ class Second extends Component {
     return (
       <div className="Row">
         <div className="Second col-sm-4">
-
+          <div className="Center">
              {this.props.name}
+          </div>
         </div>
       </div>
     );

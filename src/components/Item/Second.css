@@ -7,6 +7,15 @@
   grid-column: span 1;
   display: inline-block;
   flex-wrap: wrap;
+  color: white;
+  align-self: center;
+    background-color: #F3A293;
+}
+
+.center{
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .row{
