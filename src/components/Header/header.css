@@ -14,3 +14,8 @@ a:-webkit-any-link {
     cursor: pointer;
     text-decoration: underline;
 }
+
+
+a {
+  margin: 15px;
+}

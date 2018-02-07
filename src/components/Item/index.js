@@ -6,11 +6,11 @@ import './Second.css';
 class Second extends Component {
   render() {
     return (
-      <div className="Row">
-        <div className="Second col-sm-4">
-          <div className="Center">
+      <div className="row">
+        <div className="Second">
+
              {this.props.name}
-          </div>
+
         </div>
       </div>
     );

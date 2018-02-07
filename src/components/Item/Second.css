@@ -1,26 +1,15 @@
 .Second{
-  width: 20vw;
   height: 150px;
-  justify-content: center;
+/*  justify-content: center;*/
   margin: 1px;
   border: 2px solid black;
-  grid-column: span 1;
-  display: inline-block;
-  flex-wrap: wrap;
+/*  grid-column: span 1;
+  display: inline-block;*/
+/*  flex-wrap: wrap;*/
   color: white;
   align-self: center;
     background-color: #F3A293;
 }
 
-.center{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.row{
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-gap: 20px;
-}
 

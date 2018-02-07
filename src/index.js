@@ -3,6 +3,8 @@ import React from 'react';
 // import './index.css';
 // import App from './App';
 // import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
 
 // import registerServiceWorker from './registerServiceWorker';
 import { render } from 'react-dom';
