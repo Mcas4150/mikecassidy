@@ -15,9 +15,7 @@ class App extends Component {
             <h1 className="App-title">Welcome to React</h1>
           </header>*/}
           <Header />
-          <p className="App-intro">
-            Hello
-          </p>
+
             <div className="row">
               <div className="col-sm-4">
               {"123456".split("").map((e, i) => <Second key={i} name="Whatever"/>)}

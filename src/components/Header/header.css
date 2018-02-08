@@ -1,18 +1,18 @@
 .navLink {
   padding: 10px;
-  color: white;
+
 
 }
 
 .menu {
-  background-color: black;
+      display: flex;
+    justify-content: space-evenly;
 }
 
 
 a:-webkit-any-link {
-    color: white;
+  text-decoration-line: none;
     cursor: pointer;
-    text-decoration: underline;
 }
 
 

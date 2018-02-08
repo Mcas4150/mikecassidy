@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router';
-import './header.sass';
+import './header.css';
 
 
 
@@ -29,7 +29,7 @@ class Header extends Component {
       <div className="menu">
 
         <Link onlyActiveOnIndex={true} key={1} to="/" activeClassName="activeNavLink" className="navLink">
-          Mike Cassidy
+          Home
         </Link>
         <Link onlyActiveOnIndex={true} key={2} to="/profile" activeClassName="activeNavLink" className="navLink">
           Profile
