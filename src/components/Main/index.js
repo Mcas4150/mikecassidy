@@ -10,13 +10,13 @@ class Main extends Component {
         <div className="container">
           <div className="row">
               <div className="col-sm-4">
-                {"123456".split("").map((e, i) => <Item key={i} name="Whatever"/>)}
+                {"12345678".split("").map((e, i) => <Item key={i} name="Whatever"/>)}
               </div>
               <div className="col-sm-4">
-                {"123456".split("").map((e, i) => <Item key={i} name="Wherever"/>)}
+                {"12345678".split("").map((e, i) => <Item key={i} name="Wherever"/>)}
               </div>
               <div className="col-sm-4">
-                {"123456".split("").map((e, i) => <Item key={i} name="Whoever"/>)}
+                {"12345678".split("").map((e, i) => <Item key={i} name="Whoever"/>)}
               </div>
           </div>
         </div>

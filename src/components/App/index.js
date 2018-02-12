@@ -14,7 +14,6 @@ class App extends Component {
 
         <Sidebar />
         <Main />
-        <Footer />
       </div>
     );
   }

@@ -4,7 +4,8 @@
     left: 0;
     position: fixed;
   width:20%;
-  background-color: #F3A293
+  background-color: #F3A293;
+  z-index:2;
 }
 
 

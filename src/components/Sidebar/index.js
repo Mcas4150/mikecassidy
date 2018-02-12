@@ -8,16 +8,19 @@ class Sidebar extends Component {
   render() {
     return (
         <div className="sidebar">
-          <h1>Mike Cassidy</h1>
+{/*          <Link onlyActiveOnIndex={true} key={1} to="/" activeClassName="activeNavLink" className="navLink">
+              <h1>Mike Cassidy</h1>
+            </Link>*/}
+            <h1>Mike Cassidy</h1>
           <h4>Full-Stack Web Developer</h4>
           <div className="links">
             <Link onlyActiveOnIndex={true} key={2} to="/projects" activeClassName="activeNavLink" className="navLink">
               Projects
             </Link>
-            <Link onlyActiveOnIndex={true} key={3} to="/trades" activeClassName="activeNavLink" className="navLink">
+            <Link onlyActiveOnIndex={true} key={3} to="/skills" activeClassName="activeNavLink" className="navLink">
               Skills
             </Link>
-            <Link onlyActiveOnIndex={true} key={4} to="/login" activeClassName="activeNavLink" className="navLink">
+            <Link onlyActiveOnIndex={true} key={4} to="/contact" activeClassName="activeNavLink" className="navLink">
               Contact
             </Link>
           </div>
