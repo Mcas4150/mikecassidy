@@ -1,5 +1,6 @@
 .navLink {
   padding: 10px;
+  transform: rotateX(10deg);
 
 
 }
@@ -7,6 +8,15 @@
 .menu {
       display: flex;
     justify-content: space-evenly;
+ /*   position: fixed;*/
+/*        display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;*/
+        border-bottom: 1px solid #eaeaea;
+        margin-bottom: 15px;
 }
 
 
@@ -16,6 +26,19 @@ a:-webkit-any-link {
 }
 
 
-a {
-  margin: 15px;
+a:hover{
+ border-bottom: 3px solid #eaeaea;
 }
+
+/*
+.header{
+    transition-duration: .25s;
+    transition-property: background-color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    width: 80px;
+    height: 100%;
+}
+*/

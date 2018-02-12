@@ -1,0 +1,13 @@
+.sidebar{
+      top: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+  width:20%;
+  background-color: #F3A293
+}
+
+
+h4{
+  color:ghostwhite;
+}

@@ -1,20 +1,32 @@
 import React, { Component } from 'react';
-import './Second.css';
+import './Item.css';
 
 
 
-class Second extends Component {
+class Item extends Component {
+  constructor(props){
+    super(props);
+    this.state = { greeting: "Yo" };
+    this.frenchify = this.frenchify.bind(this);
+  }
+
+  frenchify(){
+    this.setState({ greeting: "Fuck"});
+  }
+
+
   render() {
     return (
       <div className="row">
-        <div className="Second">
+        <div className="Item">
 
-             {this.props.name}
-
+            {this.state.greeting} {this.props.name}
+            <br/>
+            <button onClick={this.frenchify}>Frenchify</button>
         </div>
       </div>
     );
   }
 }
 
-export default Second;
+export default Item;

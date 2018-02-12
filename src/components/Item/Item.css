@@ -1,4 +1,4 @@
-.Second{
+.Item{
   height: 150px;
 /*  justify-content: center;*/
   margin: 1px;
@@ -6,10 +6,15 @@
 /*  grid-column: span 1;
   display: inline-block;*/
 /*  flex-wrap: wrap;*/
+  display: flex;
+  justify-content: center;
   color: white;
-  align-self: center;
+  align-items: center;
     background-color: #F3A293;
 }
 
 
 
+button{
+  color: black;
+}

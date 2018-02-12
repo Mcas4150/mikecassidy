@@ -1,0 +1,6 @@
+.projects{
+  display:flex;
+  justify-content: center;
+  align-self: center;
+  background-color: grey;
+}
