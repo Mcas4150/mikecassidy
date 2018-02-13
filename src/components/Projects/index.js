@@ -19,7 +19,8 @@ class Projects extends Component {
               {
                 ProjectAPI.all().map(p => (
                   <li key={p.name}>
-                    <Link to={`/portfolio/${p.name}`}>{p.name}</Link>
+                    <Link to={`/portfolio/${p.name}`}><h2>{p.name}</h2></Link>
+                    <img src={p.image} className="preview"/>
                     <p>{p.description}</p>
                   </li>
                 ))
