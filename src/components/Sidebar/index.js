@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router';
+import { NavLink } from 'react-router-dom';
 import './Sidebar.css';
 
 
@@ -14,15 +14,15 @@ class Sidebar extends Component {
             <h1>Mike Cassidy</h1>
           <h4>Full-Stack Web Developer</h4>
           <div className="links">
-            <Link onlyActiveOnIndex={true} key={2} to="/projects" activeClassName="activeNavLink" className="navLink">
+            <NavLink  to="/projects" activeClassName="activeNavLink" className="navLink">
               Projects
-            </Link>
-            <Link onlyActiveOnIndex={true} key={3} to="/skills" activeClassName="activeNavLink" className="navLink">
+            </NavLink>
+            <NavLink  to="/skills" activeClassName="activeNavLink" className="navLink">
               Skills
-            </Link>
-            <Link onlyActiveOnIndex={true} key={4} to="/contact" activeClassName="activeNavLink" className="navLink">
+            </NavLink>
+            <NavLink  to="/contact" activeClassName="activeNavLink" className="navLink">
               Contact
-            </Link>
+            </NavLink>
           </div>
 
         </div>

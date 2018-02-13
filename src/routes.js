@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, IndexRoute } from 'react-router';
+import { Route} from 'react-router-dom';
 
 import App from './components/App/index';
 import Main from './components/Main/index';
@@ -13,7 +13,6 @@ import Projects from './components/Projects/index';
 
 export default (
   <Route path="/" component={App}>
-    <IndexRoute component={Main} />
     <Route path="skills" component={Skills} />
     <Route path="contact" component={Contact} />
     <Route path="projects" component={Projects} />
@@ -21,3 +20,5 @@ export default (
     <Route path="*" component={ErrorPage} />*/}
   </Route>
 );
+
+
