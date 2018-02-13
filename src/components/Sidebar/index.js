@@ -14,8 +14,8 @@ class Sidebar extends Component {
             <h1>Mike Cassidy</h1>
           <h4>Full-Stack Web Developer</h4>
           <div className="links">
-            <NavLink  to="/projects" activeClassName="activeNavLink" className="navLink">
-              Projects
+            <NavLink  to="/portfolio" activeClassName="activeNavLink" className="navLink">
+              Portfolio
             </NavLink>
             <NavLink  to="/skills" activeClassName="activeNavLink" className="navLink">
               Skills

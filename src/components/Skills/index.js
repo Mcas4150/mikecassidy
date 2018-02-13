@@ -13,6 +13,7 @@ class Skills extends Component {
     return (
 
         <div className="skills">
+          <h1>Skills</h1>
           <div className="container">
             <div className="row">
               <div className='col-xs-2'>React.js</div>

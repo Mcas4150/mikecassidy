@@ -4,7 +4,7 @@ import Item from '../Item/index';
 import { Switch, Route } from 'react-router-dom';
 import Skills from '../Skills/index';
 import Contact from '../Contact/index';
-import Projects from '../Projects/index';
+import Portfolio from '../Portfolio/index';
 
 
 class Main extends Component {
@@ -12,7 +12,7 @@ class Main extends Component {
     return (
       <div className="main">
           <Switch>
-            <Route path="/projects" component={Projects}/>
+            <Route path="/portfolio" component={Portfolio}/>
             <Route path="/skills" component={Skills}/>
             <Route path="/contact" component={Contact}/>
           </Switch>
