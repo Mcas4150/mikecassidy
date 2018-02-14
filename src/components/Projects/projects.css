@@ -6,16 +6,40 @@
 }
 
 
-.preview{
+.image{
   border-radius: 5px;
   box-shadow: 3px 3px 15px grey;
   width: 500px;
   height:300px;
 }
 
-.info{
-  width:100%;
-  border-bottom: 1px solid grey;
+
+
+
+.overlay {
+  border-radius:5px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 42px;
+  right: 0;
+  width: 500px;
+  height: 300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: white;
 }
 
+.overlay:hover {
+  opacity: .75;
+}
 
+.text {
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}

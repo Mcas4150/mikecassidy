@@ -18,12 +18,16 @@ class Projects extends Component {
 
               {
                 ProjectAPI.all().map(p => (
-                  <div className="col-sm-6">
+                  <div className="col-xs-12 col-sm-6">
                     <Link to={`/portfolio/${p.name}`}>
-                      <h2>{p.name}</h2>
-                      <img src={p.image} className="preview"/>
+                      <img src={p.image} className="image"/>
+                      <div className="overlay">
+                        <div className="text">
+                          <h2>{p.name}</h2>
+                          <p>{p.description}</p>
+                        </div>
+                      </div>
                     </Link>
-                    <p>{p.description}</p>
                   </div>
                 ))
               }

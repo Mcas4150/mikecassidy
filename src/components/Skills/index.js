@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import SkillsAPI from '../../skillsAPI';
+import { Link } from 'react-router-dom';
 import './Skills.css';
 
 class Skills extends Component {
@@ -16,18 +18,16 @@ class Skills extends Component {
           <h1>Skills</h1>
           <div className="container">
             <div className="row">
-              <div className='col-xs-2'>React.js</div>
-              <div className='col-xs-2'>Redux</div>
-              <div className='col-xs-2'>Node.js</div>
-              <div className='col-xs-2'>Ruby on Rails</div>
-              <div className='col-xs-2'>Javascript</div>
-              <div className='col-xs-2'>CSS</div>
-              <div className='col-xs-2'>HTML</div>
-              <div className='col-xs-2'>Express</div>
-              <div className='col-xs-2'>Python</div>
-              <div className='col-xs-2'>C++</div>
-              <div className='col-xs-2'>Max/MSP</div>
-              <div className='col-xs-2'>PureData</div>
+              {
+                SkillsAPI.all().map(p => (
+                  <div className="col-xs-6 col-sm-3">
+                    <Link to={`${p.link}`}>
+                      <img src={p.image} className="skill-image"/>
+                    </Link>
+                    <h3>{p.name}</h3>
+                  </div>
+                ))
+              }
             </div>
           </div>
         </div>

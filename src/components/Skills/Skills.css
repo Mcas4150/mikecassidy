@@ -1,6 +1,11 @@
-.skills{
+/*.skills{
   display:flex;
   justify-content: center;
   align-self: center;
-  background-color: grey;
+}
+*/
+
+.skill-image{
+  width:100px;
+  height:100px;
 }
