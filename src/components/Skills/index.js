@@ -20,11 +20,11 @@ class Skills extends Component {
             <div className="row">
               {
                 SkillsAPI.all().map(p => (
-                  <div className="col-xs-6 col-sm-3">
+                  <div className="col-xs-4 col-sm-2">
                     <Link to={`${p.link}`}>
                       <img src={p.image} className="skill-image"/>
                     </Link>
-                    <h3>{p.name}</h3>
+                    <div className="name">{p.name}</div>
                   </div>
                 ))
               }

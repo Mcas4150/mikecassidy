@@ -11,6 +11,8 @@
 
 
 .skill-image{
-  width:100px;
-  height:100px;
+  min-height:75px;
+  width:100%;
+  max-width:100px;
+  max-height:100px;
 }
