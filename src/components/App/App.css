@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: white;
+  background-color: #ececec;
   font-family: "Helvetica";
 }
 
@@ -17,12 +17,12 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: white;
+    background: #ececec;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #F3A293;
+    background: #fed249;
 }
 
 /* Handle on hover */
