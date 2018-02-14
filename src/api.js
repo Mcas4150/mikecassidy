@@ -7,8 +7,8 @@ const ProjectAPI = {
 
   ],
   all: function() { return this.projects},
-  get: function(id) {
-    const isProject = p => p.name === id
+  get: function(name) {
+    const isProject = p => p.name === name
     return this.projects.find(isProject)
   }
 }

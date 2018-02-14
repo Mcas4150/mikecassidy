@@ -8,9 +8,7 @@ import './Project.css';
 
 
 // const Project = (props) => {
-//   const project = ProjectAPI.get(
-//     parseInt(props.match.params.number, 10)
-//   )
+//   const project = ProjectAPI.get(name)
 //   if (!project) {
 //     return <div>Sorry, but the project was not found</div>
 //   }
