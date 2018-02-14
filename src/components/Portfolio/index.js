@@ -17,7 +17,7 @@ class Portfolio extends Component {
       <div className="container">
         <div className="portfolio">
 
-           <h1>Portfolio</h1>
+           <div className="title">Portfolio</div>
 
 
         </div>

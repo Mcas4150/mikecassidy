@@ -14,7 +14,7 @@ class Contact extends Component {
 
         <div className="contact">
 
-            <h1>Contact Me</h1>
+            <div className="title">Contact Me</div>
             <a href="mailto:mikecassidy0000@gmail.com">Email</a>
             <a href="linkedin.com/in/mike-cassidy-41847069/">LinkedIn</a>
             <a href="https://github.com/Mcas4150">Github</a>
