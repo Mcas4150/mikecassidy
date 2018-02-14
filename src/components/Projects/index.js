@@ -13,19 +13,21 @@ class Projects extends Component {
   render() {
     return (
 
-        <div className="projects">
+        <div className="row">
 
-            <ul>
+
               {
                 ProjectAPI.all().map(p => (
-                  <li key={p.name}>
-                    <Link to={`/portfolio/${p.name}`}><h2>{p.name}</h2></Link>
-                    <img src={p.image} className="preview"/>
+                  <div className="info">
+                    <Link to={`/portfolio/${p.name}`}>
+                      <h2>{p.name}</h2>
+                      <img src={p.image} className="preview"/>
+                    </Link>
                     <p>{p.description}</p>
-                  </li>
+                  </div>
                 ))
               }
-            </ul>
+
 
         </div>
 

@@ -2,11 +2,16 @@
   display:flex;
   justify-content: center;
   align-self: center;
-  background-color: grey;
+
 }
 
 
 .preview{
   width: 650px;
   height:400px;
+}
+
+.info{
+  width:100%;
+  border-bottom: 1px solid grey;
 }
