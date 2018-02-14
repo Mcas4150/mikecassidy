@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Box from '../Box/index';
 import { NavLink } from 'react-router-dom';
 import './Sidebar.css';
 
@@ -24,7 +25,7 @@ class Sidebar extends Component {
               Contact
             </NavLink>
           </div>
-
+          <Box/>
         </div>
     );
   }
