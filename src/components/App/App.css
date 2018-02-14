@@ -1,13 +1,13 @@
 .App {
   min-height: 100vh;
   text-align: center;
-  background-color: #ececec;
+  background-color: #c3c6c6;
   font-family: "Helvetica";
   cursor: url('https://i.imgur.com/nDobj0M.png'), auto;
 }
 
 .body{
-  background-color: #ececec;
+  background-color: #c3c6c6;
 }
 
 
@@ -20,12 +20,12 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background: #ececec;
+    background: #c3c6c6;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #fed249;
+    background: #9FB7CC;
 }
 
 /* Handle on hover */
