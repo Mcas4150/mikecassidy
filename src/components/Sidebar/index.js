@@ -15,15 +15,16 @@ class Sidebar extends Component {
             <h1>Mike Cassidy</h1>
           <h4>Full-Stack Web Developer</h4>
           <div className="links">
-            <NavLink  to="/portfolio" activeClassName="activeNavLink" className="navLink">
-              Portfolio
-            </NavLink>
-            <NavLink  to="/skills" activeClassName="activeNavLink" className="navLink">
-              Skills
-            </NavLink>
-            <NavLink  to="/contact" activeClassName="activeNavLink" className="navLink">
-              Contact
-            </NavLink>
+              <NavLink  to="/portfolio" activeClassName="activeNavLink" className="navLink">
+                Portfolio
+              </NavLink>
+              <NavLink  to="/skills" activeClassName="activeNavLink" className="navLink">
+                Skills
+              </NavLink>
+              <NavLink  to="/contact" activeClassName="activeNavLink" className="navLink">
+                Contact
+              </NavLink>
+
           </div>
           <Box/>
         </div>

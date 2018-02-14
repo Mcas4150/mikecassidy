@@ -11,6 +11,14 @@
 }
 
 
+
+.navLink{
+      font-size: 18px;
+    display: block;
+    width: 100%;
+    color: white;
+}
+
 h4{
   color:ghostwhite;
 }
