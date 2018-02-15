@@ -39,7 +39,6 @@ class Sidebar extends Component {
             </Link>*/}
             <h1>Mike Cassidy</h1>
               <div className="hide">
-                <h4>Full-Stack Web Developer</h4>
                 <div className="links">
                     <NavLink  to="/portfolio" activeClassName="activeNavLink"  className="navLink">
                       Portfolio
@@ -48,7 +47,7 @@ class Sidebar extends Component {
                       Skills
                     </NavLink>
                     <NavLink  to="/contact" activeClassName="activeNavLink" className="navLink">
-                      Contact
+                      About
                     </NavLink>
                   </div>
               </div>
