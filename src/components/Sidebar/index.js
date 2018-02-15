@@ -44,7 +44,7 @@ class Sidebar extends Component {
                       Portfolio
                     </NavLink>
                     <NavLink  to="/skills" activeClassName="activeNavLink" className="navLink">
-                      Skills
+                      Resume
                     </NavLink>
                     <NavLink  to="/contact" activeClassName="activeNavLink" className="navLink">
                       About

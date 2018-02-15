@@ -17,10 +17,10 @@ class Contact extends Component {
 
             <div className="title">About</div>
             <div className="bio">
-              Mike Cassidy is a Full-Stack Web Development with a penchant for the web, typography, and interaction design. He prefers to refer to himself in the first person.
+              Mike Cassidy is a Web Developer with a penchant for the web, typography, and interaction design. He prefers to refer to himself in the first person.
 <br/>
 <br/>
-I’m currently living in Boston, Massachusetts. Previously, I've worked with autistic children as an Applied Behavioral Analyst and a Engineer for Dropbox. I am now specializing in Web Development: how they break, the teams that maintain them, and how they work at scale and across mediums.
+I’m currently living in Boston, Massachusetts. Previously, I've worked with autistic children as an applied behavioral analyst and at the music distributor <a href="https://www.forcedexposure.com/home.html">Forced Exposure</a>. I am now specializing in Web Development: how they break, the teams that maintain them, and how they work at scale and across mediums.
 <br/>
 <br/>
 I spend my time <a>listening</a>, adapting, building electronics, and writing <a href="https://github.com/Mcas4150">code</a>. I also write about design, courage, and lack thereof.

@@ -3,6 +3,7 @@ import './Main.css';
 import Item from '../Item/index';
 import { Switch, Route } from 'react-router-dom';
 import Skills from '../Skills/index';
+import Footer from '../Footer/index';
 import Contact from '../Contact/index';
 import Portfolio from '../Portfolio/index';
 
@@ -29,6 +30,7 @@ class Main extends Component {
               </div>
           </div>
         </div>*/}
+        <Footer/>
       </div>
     );
   }
