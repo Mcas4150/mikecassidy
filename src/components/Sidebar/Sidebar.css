@@ -9,10 +9,10 @@
 /*  border-right: 1px solid grey;*/
 /*  box-shadow: 1px 0px 12px grey;*/
  -webkit-transition-property: width;
-    -webkit-transition-duration: 0.25s;
+    -webkit-transition-duration: 0.35s;
     -webkit-transition-timing-function: ease-in-out;
     transition-property: width;
-    transition-duration: 0.25s;
+    transition-duration: 0.35s;
     transition-timing-function: ease-in-out;
 }
 
@@ -25,10 +25,10 @@
   background-color: #9FB7CC;
   z-index:2;
     -webkit-transition-property: width;
-    -webkit-transition-duration: 0.25s;
+    -webkit-transition-duration: 0.35s;
     -webkit-transition-timing-function: ease-in-out;
     transition-property: width;
-    transition-duration: 0.25s;
+    transition-duration: 0.35s;
     transition-timing-function: ease-in-out;
 }
 
