@@ -2,10 +2,10 @@
     display: grid;
     grid-template-areas: "left center right";
     grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 200px;
+
     background-color: #9FB7CC;
   padding: 20px 0 20px 0;
-  margin: 10vw 25vw;
+  margin: 5vw 25vw;
 }
 
 
