@@ -21,10 +21,9 @@ class Skills extends Component {
               {
                 SkillsAPI.all().map(p => (
                   <div className="col-xs-4 col-sm-2">
-                    <Link to={`${p.link}`}>
-                      <img src={p.image} className="skill-image"/>
-                    </Link>
+                    <Link to={`${p.link}`} target="_blank">
                     <div className="name">{p.name}</div>
+                    </Link>
                   </div>
                 ))
               }

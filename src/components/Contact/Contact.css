@@ -1,4 +1,9 @@
 .bio{
   padding: 0 32vw;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
+}
+
+a {
+  color: #337ab7;
+  text-decoration-line: none;
 }

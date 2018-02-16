@@ -13,6 +13,16 @@
 .skill-image{
   min-height:75px;
   width:100%;
-  max-width:100px;
-  max-height:100px;
+ /* max-width:100px;
+  max-height:100px;*/
+}
+
+/*
+.skills{
+  margin: 0 10vw;
+}
+*/
+
+.container{
+  margin: 0 30vw;
 }
