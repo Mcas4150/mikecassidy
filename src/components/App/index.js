@@ -1,18 +1,18 @@
 import React, { Component, PropTypes } from 'react';
 
 import './App.css';
+import Header from '../Header/index';
 import Main from '../Main/index';
-import Sidebar from '../Sidebar/index';
+import Footer from '../Footer/index';
 
 
 class App extends Component {
   render() {
     return (
-
       <div className="App">
-
-        <Sidebar />
-        <Main />
+        <Header/>
+        <Main/>
+        <Footer/>
       </div>
     );
   }

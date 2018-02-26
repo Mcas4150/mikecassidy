@@ -1,14 +1,9 @@
 .App {
   min-height: 100vh;
   text-align: center;
-  background-color: #c3c6c6;
   font-family: "Helvetica";
-  cursor: url('https://i.imgur.com/nDobj0M.png'), auto;
+  /*cursor: url('https://i.imgur.com/nDobj0M.png'), auto;*/
 /*   cursor: url('../Images/blackcircle.png'), auto;*/
-}
-
-.body{
-  background-color: #c3c6c6;
 }
 
 

@@ -3,15 +3,17 @@ import './Main.css';
 import Item from '../Item/index';
 import { Switch, Route } from 'react-router-dom';
 import Skills from '../Skills/index';
-import Footer from '../Footer/index';
 import Contact from '../Contact/index';
 import Portfolio from '../Portfolio/index';
+import '../../globalstyle.css';
+
 
 
 class Main extends Component {
   render() {
     return (
-      <div className="main">
+      <div className="main wrap">
+
           <Switch>
             <Route path="/portfolio" component={Portfolio}/>
             <Route path="/skills" component={Skills}/>
@@ -30,7 +32,6 @@ class Main extends Component {
               </div>
           </div>
         </div>*/}
-        <Footer/>
       </div>
     );
   }

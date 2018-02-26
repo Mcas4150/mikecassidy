@@ -1,0 +1,12 @@
+.wrap {
+    margin: 0 auto;
+    max-width: 34rem;
+}
+
+.plainlink{
+  text-decoration: none;
+}
+
+.b {
+  display: block;
+}
