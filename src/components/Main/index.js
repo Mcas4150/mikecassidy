@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Main.css';
-import Item from '../Item/index';
 import { Switch, Route } from 'react-router-dom';
 import Skills from '../Skills/index';
 import Bio from '../Bio/index';
