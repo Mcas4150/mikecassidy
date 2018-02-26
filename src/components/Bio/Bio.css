@@ -14,9 +14,9 @@ a {
   font-weight: 400;
 }
 
-/*p+p {
-    text-indent: m;
-}*/
+p+p {
+    text-indent: 1.5em;
+}
 
 p {
     margin:0;

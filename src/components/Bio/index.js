@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import './Bio.css';
-
+import '../../globalstyle.css';
 class Bio extends Component {
   // constructor(props){
   //   super(props);

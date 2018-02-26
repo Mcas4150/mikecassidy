@@ -1,9 +1,9 @@
 const ProjectAPI = {
   projects: [
-    { name: "Synthesizer", description: "This is a synth made with web audio", image:"https://i.imgur.com/1FObdgV.png"},
-    { name: "La Rama", description: "A Vinyl Record store using Discogs API", image:"https://i.imgur.com/CtG6gso.jpg" },
-    { name: "Isabella", description: "A Musician Tour Date Page", image:"https://i.imgur.com/E3FFSOX.png"},
-    { name: "Commons", description: "An Airbnb clone for create space usage", image:"https://i.imgur.com/BF0PsjC.png" },
+    { name: "Synthesizer", description: "This is a synth made with web audio", url:"http://www.mike-cassidy.online/"},
+    { name: "La Rama", description: "A Vinyl Record store using Discogs API", url:"http://fierce-waters-95137.herokuapp.com/" },
+    { name: "Isabella", description: "A Musician Tour Date Page", url:"http://guarded-plains-27954.herokuapp.com"},
+    { name: "Commons", description: "An Airbnb clone for create space usage", url:"http://www.commons.fun/" },
 
   ],
   all: function() { return this.projects},

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import './Portfolio.css';
-import { Switch, Route } from 'react-router-dom';
-import Projects from '../Projects/index';
-import Project from '../Project/index';
+import '../../globalstyle.css';
+import ProjectAPI from '../../api'
+
 
 class Portfolio extends Component {
   // constructor(props){
@@ -14,19 +14,24 @@ class Portfolio extends Component {
 
   render() {
     return (
-      <div className="container">
+
         <div className="portfolio">
+          {
+            ProjectAPI.all().map(p => (
+                  <div className="">
 
-           <div className="title">Portfolio</div>
-
-
+                      <div className="">
+                        <div className="text">
+                          <a href={p.url} target="_blank">
+                            <p>{p.name}</p>
+                          </a>
+                          <p>{p.description}</p>
+                        </div>
+                      </div>
+                  </div>
+                ))
+              }
         </div>
-
-              <Switch>
-                <Route exact path='/portfolio' component={Projects}/>
-                <Route path='/portfolio/:name' component={Project}/>
-              </Switch>
-      </div>
     );
   }
 }

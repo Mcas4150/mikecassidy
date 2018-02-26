@@ -13,9 +13,14 @@ class Header extends Component {
         <nav role="navigation">
           <ul className="nav">
             <li>
-              <Link to={`/skills`} className="plainlink">Résumé</Link>
+              <Link to={`/skills`} className="plainlink">CV</Link>
             </li>
-            <li><Link to={`/portfolio`} className="plainlink">Portfolio</Link></li>
+            <li>
+              <Link to={`/portfolio`} className="plainlink">Portfolio</Link>
+            </li>
+            <li>
+              <a className="b plainlink" href="https://github.com/Mcas4150"  target="_blank">Github</a>
+            </li>
           </ul>
         </nav>
       </header>

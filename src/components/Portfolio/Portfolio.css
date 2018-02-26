@@ -1,10 +1,11 @@
 .portfolio{
-  display:flex;
-  justify-content: center;
-  align-self: center;
-  color: white;
-  font-size: 65px;
 }
 
 
 
+
+.text {
+  color: black;
+
+
+}
