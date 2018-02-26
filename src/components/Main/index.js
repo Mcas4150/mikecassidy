@@ -12,7 +12,7 @@ import '../../globalstyle.css';
 class Main extends Component {
   render() {
     return (
-      <div className="main wrap">
+      <main className="main wrap">
 
           <Switch>
             <Route exact path="/" component={Bio}/>
@@ -20,20 +20,7 @@ class Main extends Component {
             <Route path="/skills" component={Skills}/>
 
           </Switch>
-      {/*  <div className="container">
-          <div className="row">
-              <div className="col-sm-4">
-                {"12345678".split("").map((e, i) => <Item key={i} name="Whatever"/>)}
-              </div>
-              <div className="col-sm-4">
-                {"12345678".split("").map((e, i) => <Item key={i} name="Wherever"/>)}
-              </div>
-              <div className="col-sm-4">
-                {"12345678".split("").map((e, i) => <Item key={i} name="Whoever"/>)}
-              </div>
-          </div>
-        </div>*/}
-      </div>
+      </main>
     );
   }
 }
