@@ -2,9 +2,7 @@ import React from 'react';
 // import ReactDOM from 'react-dom';
 // import './index.css';
 import App from './components/App/index';
-// import 'bootstrap/dist/css/bootstrap.min.css';
 
-// import registerServiceWorker from './registerServiceWorker';
 import { render } from 'react-dom';
 import { BrowserRouter } from 'react-router-dom';
 

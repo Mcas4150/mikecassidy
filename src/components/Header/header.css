@@ -1,9 +1,4 @@
 .header {
-   /* display: grid;
-    grid-template-areas: "left center right";
-    grid-template-columns: 1fr 3fr 1fr;
-*/
- /*   background-color: #9FB7CC;*/
     align-items: center;
     border-bottom: 1px solid;
     display: -ms-flexbox;
