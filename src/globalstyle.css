@@ -14,3 +14,11 @@
 a{
   color:#337ab7;
 }
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}

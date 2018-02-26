@@ -1,9 +1,28 @@
 .bio{
-
-  font-size: 1.25rem;
+  font-family: "Tiempos Text Web";
 }
+
 
 a {
   color: #337ab7;
   text-decoration-line: none;
+}
+
+
+.h1{
+  font-size: 1.333rem;
+  font-weight: 400;
+}
+
+/*p+p {
+    text-indent: m;
+}*/
+
+p {
+    margin:0;
+    display: block;
+    -webkit-margin-before: .25rem;
+    -webkit-margin-after: .25rem;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }

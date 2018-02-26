@@ -1,6 +1,8 @@
 .App {
 /*  min-height: 100vh;*/
   font-family: "Helvetica";
+  padding-left: 1.7778rem;
+  padding-right: 1.7778rem;
 }
 
 
@@ -24,4 +26,10 @@
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+@media screen and (max-width: 400px) {
+  .App{
+  font-size: .875rem;
+  }
 }
