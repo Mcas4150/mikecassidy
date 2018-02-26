@@ -13,9 +13,12 @@
 }
 
 a{
-  color:#337ab7;
+  color:black;
 }
 
+a:hover{
+  color:orange;
+}
 
 * {
     box-sizing: border-box;
@@ -26,4 +29,7 @@ a{
 
 p {
   line-height: 150%;
+
+  font-family: 'Adamina', serif;
+
 }

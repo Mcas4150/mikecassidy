@@ -6,8 +6,8 @@
 
 .text {
   color: black;
-
-
+  margin-top: calc(1.7778rem / 2);
+  margin-bottom: 1.7778rem;
 }
 
 .text a{
