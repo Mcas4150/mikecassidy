@@ -13,11 +13,7 @@ class Skills extends Component {
 
   render() {
     return (
-
         <div className="skills">
-          <div className="title">Skills</div>
-          <div className="container">
-            <div className="row">
               {
                 SkillsAPI.all().map(p => (
                   <div className="col-xs-4 col-sm-2">
@@ -27,10 +23,7 @@ class Skills extends Component {
                   </div>
                 ))
               }
-            </div>
-          </div>
         </div>
-
     );
   }
 }

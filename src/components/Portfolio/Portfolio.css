@@ -9,3 +9,16 @@
 
 
 }
+
+
+h2{
+  font-size: 1.111rem;
+  font-weight: 400;
+/*  margin-bottom: 1.7778rem;*/
+}
+
+
+p+h2{
+  margin-bottom: 1.7778rem;
+}
+

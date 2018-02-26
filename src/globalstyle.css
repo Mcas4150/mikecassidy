@@ -23,3 +23,7 @@ a{
     padding: 0;
     position: relative;
 }
+
+p {
+  line-height: 150%;
+}
