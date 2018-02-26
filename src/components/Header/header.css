@@ -15,6 +15,20 @@
 .site_title{
   margin-right: 1.7778rem;
 }
+
+.nav{
+  list-style:none;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+.nav li {
+    display: inline-block;
+}
+
+.nav li+li {
+    margin-left: calc(1.7778rem / 2);
+}
 /*.arrow{
   font-size: 2rem;
   color: white;

@@ -11,17 +11,13 @@ class Header extends Component {
         Mike Cassidy, Developer
         </a>
         <nav role="navigation">
+          <ul className="nav">
+            <li>
+              <Link to={`/skills`} className="plainlink">Résumé</Link>
+            </li>
+            <li><Link to={`/portfolio`} className="plainlink">Portfolio</Link></li>
+          </ul>
         </nav>
-        {/*<div className="left">
-          <Link to={`/skills`} className="arrow l-border">Résumé</Link>
-          <Link to={`/contact`} className="arrow l-border">About</Link>
-        </div>
-        <p className="center">
-
-        </p>
-        <div className="right">
-          <Link to={`/portfolio`} className="arrow r-border">Portfolio</Link>
-        </div>*/}
       </header>
     );
   }
