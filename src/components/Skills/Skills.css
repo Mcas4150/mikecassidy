@@ -1,26 +1,26 @@
-/*.skills{
-  display:flex;
-  justify-content: center;
-  align-self: center;
-}
-*/
+.grid{
+  display: grid;
+  grid-template-areas: "skills education"
+                       "skills jobs"
+                       "skills volunteer"
 
-
-
-.skill-image{
-  min-height:75px;
-  width:100%;
- /* max-width:100px;
-  max-height:100px;*/
+  ;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
-/*
 .skills{
-  margin: 0 10vw;
-}
-*/
-
-.container{
-  margin: 0 30vw;
+  grid-area:skills;
 }
 
+.education{
+  grid-area: education;
+}
+
+.jobs{
+  grid-area: jobs;
+}
+
+.volunteer{
+  grid-area: volunteer;
+}

@@ -8,7 +8,7 @@ const ProjectAPI = {
     },
     {
       name: "La Rama",
-      description: "An E-commerce store prototype for Montreal's finest vinyl record purveyor",
+      description: "An E-commerce store prototype for Montreal's finest vinyl record purveyor. Built using Discogs.com API with Ruby on Rails",
       url:"http://fierce-waters-95137.herokuapp.com/",
       github:"https://github.com/Mcas4150/La-Rama-Records"
     },
@@ -20,7 +20,7 @@ const ProjectAPI = {
     },
     {
       name: "Commons",
-      description: "An Airbnb clone for create space usage",
+      description: "An Airbnb clone for creative space usage. Le Wagon Bootcamp collaborative final project",
       url:"http://www.commons.fun/",
       github:"https://github.com/Mcas4150/COMMONS"
     },

@@ -28,7 +28,7 @@ class Portfolio extends Component {
 
                           <p>
                             {p.description}.
-                            <a href={p.github} target="_blank"> (view code)</a>
+                            <a href={p.github} target="_blank"> (code)</a>
                           </p>
 
                         </div>
