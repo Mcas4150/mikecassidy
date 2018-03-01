@@ -1,6 +1,6 @@
 const ProjectAPI = {
   projects: [
-    { name: "Bentenna",
+    { name: "Bentennas",
       description: "An internet radio station inspired by NTS radio",
       url:"https://limitless-lowlands-77309.herokuapp.com/mixes",
       github:"https://github.com/Mcas4150/Bentennas"
