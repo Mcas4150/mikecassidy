@@ -35,7 +35,9 @@
   .nav li+li {
     margin-left: calc(1.25rem / 2);
 }
-
+  .header{
+        margin-bottom: 1.5rem;
+  }
 }
 /*.arrow{
   font-size: 2rem;
