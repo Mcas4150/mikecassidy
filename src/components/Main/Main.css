@@ -6,3 +6,10 @@
 p{
   font-family: 'Adamina', serif;
 }
+
+
+@media screen and (max-width: 400px) {
+.main {
+  margin-bottom: 1.7778rem;
+}
+}
