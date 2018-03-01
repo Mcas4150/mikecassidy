@@ -32,4 +32,7 @@
   .App{
   font-size: .875rem;
   }
+  .nav li+li {
+    margin-left: calc(1.5rem / 2);
+}
 }

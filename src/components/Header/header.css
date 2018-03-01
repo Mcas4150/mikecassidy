@@ -29,12 +29,27 @@
 .nav li+li {
     margin-left: calc(1.7778rem / 2);
 }
+
+
+@media screen and (max-width: 400px){
+  .nav li+li {
+    margin-left: calc(1.25rem / 2);
+}
+
+}
 /*.arrow{
   font-size: 2rem;
   color: white;
   align-self: center;
 }
 
+
+
+
+
+ .nav li+li {
+    margin-left: calc(1.5rem / 2);
+}
 .l-border{
   border-bottom: 2px solid;
   border-left: 2px solid;
