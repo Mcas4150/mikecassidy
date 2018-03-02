@@ -9,10 +9,14 @@
   grid-template-rows: 1fr;
 }
 
+.CV{
+  font-family: 'Adamina', serif;
+}
+
+
 
 .contact{
   grid-area: contact;
-   padding-bottom: 1.5rem;
 }
 
 .skills{
@@ -28,7 +32,7 @@
 }
 
 .employment{
-  grid-area: jobs;
+  grid-area: employment;
 }
 
 .volunteer{
@@ -40,13 +44,26 @@
 }
 
 
-.employer{
+.employer, .institution{
   font-style:italic;
 }
 
-.entry, .skills{
+.entry, .contact{
   padding-bottom: 1.5rem;
 }
 
 
+@media screen and (max-width: 700px){
+  .entry, .contact{
+  padding-bottom: 1rem;
+  font-size: .875rem;
+}
 
+  .grid{
+  grid-template-areas: "employment employment"
+                       "education volunteer"
+                       "skills pdf"
+
+    ;
+  }
+}

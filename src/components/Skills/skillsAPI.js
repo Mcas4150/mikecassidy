@@ -19,7 +19,7 @@ const SkillsAPI = {
     {employer: "Girls Rock DC", year: "2015", description: "Sound engineer for all-girls rock camp in Washington, DC."},
   ],
   education: [
-    {name: "Le Wagon - Montreal", degree:"Fullstack Developer Bootcamp", year:"2017"},
+    {name: "Le Wagon Montreal", degree:"Fullstack Developer Bootcamp", year:"2017"},
     {name: "CareerFoundry", degree:"User Experience Certificate", year:"2016"},
     {name: "American University", degree:"Psychology BA", year:"2010-2015"},
   ],

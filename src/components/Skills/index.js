@@ -13,7 +13,7 @@ class Skills extends Component {
 
   render() {
     return (
-        <div className="grid">
+        <div className="CV grid">
           <div className="left">
 
 
@@ -24,8 +24,8 @@ class Skills extends Component {
                     SkillsAPI.education.map(p => (
 
                       <div className="entry">
+                        <div className="institution">{p.name}</div>
                         <div className="degree">{p.degree}</div>
-                        <div className="name">{p.name}</div>
                         <div className="year">{p.year}</div>
                       </div>
                     ))

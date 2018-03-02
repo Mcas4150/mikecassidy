@@ -18,7 +18,6 @@ p+p {
 p {
     margin:0;
     display: block;
-    -webkit-margin-before: .25rem;
     -webkit-margin-after: .25rem;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
