@@ -7,9 +7,9 @@ class Header extends Component {
   render() {
     return (
       <header className="wrap header">
-        <a className="site_title b plainlink" href="/">
+        <Link to={'/'} className="site_title b plainlink">
         Mike Cassidy, Developer
-        </a>
+        </Link>
         <nav role="navigation">
           <ul className="nav">
             <li>
