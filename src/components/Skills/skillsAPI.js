@@ -24,9 +24,9 @@ const SkillsAPI = {
     {name: "American University", degree:"Psychology BA", year:"2010-2015"},
   ],
   contact: [
-    {name:"Email", description: "mikecassidy0000@gmail"},
-    {name:"Web", description: "mike-cassidy.online"},
-    {name:"Github", description: "github.com/Mcas4150"},
+    {name:"Email", description: "me@mikecassidy.info"},
+    {name:"LinkedIn", description: "https://www.linkedin.com/in/mike-cassidy-41847069/"},
+    {name:"Github", description: "https://github.com/Mcas4150"},
   ],
 
   all: function() { return this.skills}
