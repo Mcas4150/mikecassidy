@@ -75,7 +75,7 @@ class Skills extends Component {
               <h2>Volunteer</h2>
             </div>*/}
             <div className="pdf">
-              <a href="https://www.dropbox.com/personal?preview=Michael+Cassidy++Resume.docx"  target="_blank">(pdf)</a>
+              <a href="https://www.dropbox.com/s/du3m7znbp2keyzm/Mike%20Cassidy%20Resume%202018.pdf?dl=0"  target="_blank">(pdf)</a>
             </div>
           </div>
         </div>
