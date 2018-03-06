@@ -64,7 +64,7 @@ class Skills extends Component {
                 {
                     SkillsAPI.contact.map(p => (
                       <div className="">
-                        <a href={p.description} target="_blank">{p.name}</a>
+                        <a href={p.description} target="_blank" className="plainlink">{p.name}</a>
                       </div>
 
                     ))

@@ -14,7 +14,7 @@ class Bio extends Component {
     return (
       <article className="bio h1">
         <p>
-        My name is Mike, and I am Developer with an affinity for the web, human-computer interaction, and sound design.
+        My name is Mike, and I am Developer with an affinity for functional structures, human-computer interaction, and improving lives with sound.
         </p>
         <p>
 I’m currently living in Boston, Massachusetts. Previously, I've worked with autistic children as an applied behavioral analyst and at the music distributor <a href="https://www.forcedexposure.com/home.html">Forced Exposure</a>. I now specialize in web development: how to build experiences, empower creativity, and scale design across mediums.
