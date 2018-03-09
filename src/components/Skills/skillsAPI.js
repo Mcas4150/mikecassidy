@@ -26,6 +26,7 @@ const SkillsAPI = {
     {name:"Email", description: "mailto:me@mikecassidy.info"},
     {name:"LinkedIn", description: "https://www.linkedin.com/in/mike-cassidy-41847069/"},
     {name:"Github", description: "https://github.com/Mcas4150"},
+    {name:"Soundcloud", description: "https://github.com/Mcas4150"}
   ],
 
   all: function() { return this.skills}

@@ -4,20 +4,10 @@ import { Link } from 'react-router-dom';
 import './Skills.css';
 
 class Skills extends Component {
-  // constructor(props){
-  //   super(props);
-
-  // }
-
-
-
   render() {
     return (
         <div className="CV grid">
           <div className="left">
-
-
-
             <div className="education">
               <h2>Education</h2>
                   {
@@ -35,11 +25,7 @@ class Skills extends Component {
                           <h2>Skills</h2>
                               {
                                 SkillsAPI.skills.map(p => (
-
-
-                                    <div className="skill-name">{p.name}</div>
-
-
+                                  <div className="skill-name">{p.name}</div>
                                 ))
                               }
             </div>
@@ -70,12 +56,8 @@ class Skills extends Component {
                     ))
                   }
             </div>
-
-           {/* <div className="volunteer">
-              <h2>Volunteer</h2>
-            </div>*/}
             <div className="pdf">
-              <a href="https://www.dropbox.com/s/du3m7znbp2keyzm/Mike%20Cassidy%20Resume%202018.pdf?dl=0"  target="_blank">(pdf)</a>
+              <a href="https://www.dropbox.com/s/970oz51rv8bbsyb/Mike%20Cassidy%20Resume%202018.pdf?dl=0"  target="_blank">(pdf)</a>
             </div>
           </div>
         </div>

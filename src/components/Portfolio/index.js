@@ -5,13 +5,6 @@ import ProjectAPI from '../../api'
 
 
 class Portfolio extends Component {
-  // constructor(props){
-  //   super(props);
-
-  // }
-
-
-
   render() {
     return (
 
@@ -25,12 +18,10 @@ class Portfolio extends Component {
                           <a href={p.url} target="_blank">
                             <h2>{p.name}</h2>
                           </a>
-
                           <p>
                             {p.description}.
                             <a href={p.github} target="_blank"> (code)</a>
                           </p>
-
                         </div>
                       </div>
                   </div>

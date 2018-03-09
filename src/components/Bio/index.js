@@ -3,13 +3,6 @@ import { Link } from 'react-router-dom';
 import './Bio.css';
 import '../../globalstyle.css';
 class Bio extends Component {
-  // constructor(props){
-  //   super(props);
-
-  // }
-
-
-
   render() {
     return (
       <article className="bio h1">
@@ -22,7 +15,7 @@ I’m currently living in Boston, Massachusetts. Previously, I've worked with au
         <p>
 I spend my time <a href="">listening</a>, learning, building electronics, and writing <a href="https://github.com/Mcas4150">code</a>.
 
-I’m currently available for work, so please take a look at  <a href="https://www.dropbox.com/s/du3m7znbp2keyzm/Mike%20Cassidy%20Resume%202018.pdf?dl=0">my résumé</a> or send me an <a href="mailto:mikecassidy0000@gmail.com">email</a> if you would like to be in touch.
+I’m currently available for work, so please take a look at  <a href="https://www.dropbox.com/s/970oz51rv8bbsyb/Mike%20Cassidy%20Resume%202018.pdf?dl=0">my résumé</a> or send me an <a href="mailto:mikecassidy0000@gmail.com">email</a> if you would like to be in touch.
         </p>
      </article>
 
