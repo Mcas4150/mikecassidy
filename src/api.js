@@ -2,13 +2,13 @@ const ProjectAPI = {
   projects: [
     { name: "Bentennas(beta)",
       description: "An internet radio station inspired by NTS radio",
-      url:"https://limitless-lowlands-77309.herokuapp.com/mixes",
+      url:"https://bentennas.herokuapp.com",
       github:"https://github.com/Mcas4150/Bentennas"
 
     },
     { name: "SynthFolio",
       description: "My original portfolio page, which doubles as synth built with Web Audio API. Aesthetically inspired by the Roland SH-7",
-      url:"http://www.mike-cassidy.online/",
+      url:"http://www.synthfolio.herokuapp.com/",
       github:"https://github.com/Mcas4150/SynthFolio"
 
     },
