@@ -3,6 +3,13 @@
     max-width: 34rem;
 }
 
+body{
+  background-color: #f4f0e6;
+  color: #333;
+  /* background-color: #272a33; */
+  /* color: #ccc; */
+}
+
 
 .plainlink{
   text-decoration: none;

@@ -86,3 +86,7 @@
 .l-border:hover, .r-border:hover{
   border: 2px solid;
 }*/
+.header{
+  font-weight: 600;
+  font-size: 1.5rem;
+}

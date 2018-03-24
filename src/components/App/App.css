@@ -1,8 +1,9 @@
 .App {
 /*  min-height: 100vh;*/
-  font-family: "Helvetica";
+  font-family: "Poppins";
   padding-left: 1.7778rem;
   padding-right: 1.7778rem;
+  background-color: #23262Dc;
 }
 
 
