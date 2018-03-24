@@ -1,9 +1,8 @@
 .App {
-/*  min-height: 100vh;*/
+  height: calc(100vh - 2em);
   font-family: "Poppins";
-  padding-left: 1.7778rem;
-  padding-right: 1.7778rem;
-  background-color: #23262Dc;
+  margin: 1rem;
+  background-color: #f4f0e6;
 }
 
 
