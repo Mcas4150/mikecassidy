@@ -21,11 +21,21 @@ body{
 
 a{
   color:black;
+  display:inline-block; 
+  margin:0;
+  text-decoration: none;
 }
 
-a:hover{
-  color:orange;
+a:after{
+  display:block;
+  content: '';
+  border-bottom: solid 3px #333;  
+  transform: scaleX(0);  
+  transition: transform 150ms ease-in-out;
 }
+
+a:hover:after { transform: scaleX(1); }
+
 
 * {
     box-sizing: border-box;
@@ -40,3 +50,11 @@ p {
   font-family: 'Adamina', serif;
 
 }
+
+
+@media screen and (max-width: 400px) {
+  .wrap {
+    max-width: 90%;
+  }
+  }
+  

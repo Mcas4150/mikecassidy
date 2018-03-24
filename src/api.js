@@ -8,7 +8,7 @@ const ProjectAPI = {
     },
     { name: "SynthFolio",
       description: "My original portfolio page, which doubles as synth built with Web Audio API. Aesthetically inspired by the Roland SH-7",
-      url:"http://www.synthfolio.herokuapp.com/",
+      url:"http://synthfolio.herokuapp.com/",
       github:"https://github.com/Mcas4150/SynthFolio"
 
     },

@@ -43,6 +43,9 @@
   grid-area: pdf;
 }
 
+/* .entry{
+  background-color: #eeeee5;
+} */
 
 .employer, .institution{
   font-style:italic;
