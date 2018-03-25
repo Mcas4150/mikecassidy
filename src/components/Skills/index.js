@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import SkillsAPI from './skillsAPI';
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Skills.css';
 
 class Skills extends Component {
@@ -21,14 +21,28 @@ class Skills extends Component {
                     ))
                   }
             </div>
-            <div className="skills">
+            <div className="contact">
+              <h2>Contact</h2>
+                {
+                    SkillsAPI.contact.map(p => (
+                      <div className="">
+                        <a href={p.description} target="_blank" className="plainlink">{p.name}</a>
+                      </div>
+
+                    ))
+                  }
+            </div>
+            <div className="pdf">
+              <a href="https://www.dropbox.com/s/970oz51rv8bbsyb/Mike%20Cassidy%20Resume%202018.pdf?dl=0"  target="_blank">(pdf)</a>
+            </div>
+            {/* <div className="skills">
                           <h2>Skills</h2>
                               {
                                 SkillsAPI.skills.map(p => (
-                                  <div className="skill-name">{p.name}</div>
+                                  <div className={p.image}>{p.name}</div>
                                 ))
                               }
-            </div>
+            </div> */}
           </div>
           <div className="right">
             <div className="employment">
@@ -45,20 +59,8 @@ class Skills extends Component {
                     ))
                   }
             </div>
-            <div className="contact">
-              <h2>Contact</h2>
-                {
-                    SkillsAPI.contact.map(p => (
-                      <div className="">
-                        <a href={p.description} target="_blank" className="plainlink">{p.name}</a>
-                      </div>
-
-                    ))
-                  }
-            </div>
-            <div className="pdf">
-              <a href="https://www.dropbox.com/s/970oz51rv8bbsyb/Mike%20Cassidy%20Resume%202018.pdf?dl=0"  target="_blank">(pdf)</a>
-            </div>
+            
+           
           </div>
         </div>
     );

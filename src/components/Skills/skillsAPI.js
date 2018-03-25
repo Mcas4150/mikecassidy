@@ -1,16 +1,16 @@
 const SkillsAPI = {
   skills: [
-    { name: "React.js", link: "https://reactjs.org/", image:"https://i.imgur.com/knfmPwC.png"},
-    { name: "Redux", link: "https://redux.js.org/", image:"https://i.imgur.com/T1hwnYD.png"},
-    { name: "Node.js", link: "https://nodejs.org/en/", image:"https://i.imgur.com/MTzCnzK.png"},
-    { name: "Ruby on Rails", link: "http://rubyonrails.org/", image:"https://i.imgur.com/XBj05B9.png"},
-    { name: "Javascript", link: "https://www.javascript.com/", image:"https://i.imgur.com/yCZJlV3.png"},
-    { name: "SQL", link: "https://developer.mozilla.org/en-US/docs/Web/CSS", image:"https://i.imgur.com/uVa2Lma.png"},
-    { name: "Express", link: "https://expressjs.com/", image:"https://i.imgur.com/AzDClu4.png"},
-    { name: "Python", link: "https://www.python.org/", image:"https://i.imgur.com/Op5fJPo.png"},
-    { name: "C++", link: "http://www.cplusplus.com/max", image:"https://i.imgur.com/6iKMu0P.png"},
-    { name: "Max/MSP", link: "https://cycling74.com/products/max/", image:"https://i.imgur.com/yS6rt82.png"},
-    { name: "PureData", link: "https://puredata.info/", image:"https://i.imgur.com/uB3Yiys.png"},
+    { name: "React.js", link: "https://reactjs.org/", image:"devicon-react-original"},
+    // { name: "Redux", link: "https://redux.js.org/", image:"https://i.imgur.com/T1hwnYD.png"},
+    { name: "Node.js", link: "https://nodejs.org/en/", image:"devicon-nodejs-plain"},
+    { name: "Ruby on Rails", link: "http://rubyonrails.org/", image:"devicon-rails-plain"},
+    { name: "Javascript", link: "https://www.javascript.com/", image:"devicon-javascript-plain"},
+    { name: "Mongodb", link: "https://mongodb.com", image:"devicon-mongodb-plain"},
+    { name: "Express", link: "https://expressjs.com/", image:"devicon-express-original"},
+    { name: "Python", link: "https://www.python.org/", image:"devicon-python-plain"},
+    { name: "C++", link: "http://www.cplusplus.com/max", image:"devicon-cplusplus-plain"}
+    // { name: "Max/MSP", link: "https://cycling74.com/products/max/", image:"https://i.imgur.com/yS6rt82.png"},
+    // { name: "PureData", link: "https://puredata.info/", image:"https://i.imgur.com/uB3Yiys.png"},
   ],
   employment: [
     {employer: "Behavioral Health Works", year: "2017", description: "Music therapy with autistic children utilizing applied behavioral analysis."},
