@@ -5,4 +5,5 @@
     display:flex;
     justify-content: center;
     font-size: .75rem;
+    transition: all .7s;
 }

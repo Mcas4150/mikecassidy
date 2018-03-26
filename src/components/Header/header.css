@@ -2,12 +2,14 @@
     align-items: center;
     display: -ms-flexbox;
     display: flex;
+    justify-content: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -ms-flex-pack: justify;
-    justify-content: space-between;
     margin-bottom:  1.7778rem;
     padding: 1.7778rem 0 0;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 
@@ -40,7 +42,3 @@
   }
 }
 
-.header{
-  font-weight: 600;
-  font-size: 1.5rem;
-}

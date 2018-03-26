@@ -8,10 +8,10 @@ class Bio extends Component {
     return (
       <div className="bio">
         
-        <div className="greeting">Welcome</div>
+        <div className="greeting">Hi, I'm Mike</div>
         <article className="bio h1">
           <p>
-          I'm Mike, a 26 year-old web developer with an affinity for functional structures, sound design, and human-computer interaction. I currently live in Boston. 
+          I'm a 26 year-old web developer with an affinity for functional structures, sound design, and human-computer interaction. I currently live in Boston. 
           </p>
           <p>
   Previously, I've worked with autistic children as an applied behavioral analyst and at a music distributor. I now specialize in web development: how to build experiences, empower creativity, and scale design across mediums.
