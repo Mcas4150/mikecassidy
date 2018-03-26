@@ -7,12 +7,14 @@ class Bio extends Component {
   render() {
     return (
       <div className="bio">
+        
+        <div className="greeting">Welcome</div>
         <article className="bio h1">
           <p>
-          Welcome. I am a web developer with an affinity for functional structures, human-computer interaction, and improving lives with sound. I’m currently living in Boston. 
+          I'm Mike, a web developer with an affinity for functional structures, sound design, and human-computer interaction. I'm currently living in Boston. 
           </p>
           <p>
-  Previously, I've worked with autistic children as an applied behavioral analyst and at the music distributor Forced Exposure. I now specialize in web development: how to build experiences, empower creativity, and scale design across mediums.
+  Previously, I've worked with autistic children as an applied behavioral analyst and at a music distributor. I now specialize in web development: how to build experiences, empower creativity, and scale design across mediums.
           </p>
           <p>
   I spend my time listening, learning, building electronics, and writing code.
