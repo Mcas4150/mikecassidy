@@ -43,6 +43,11 @@
   font-weight: bold;
   text-align: center;
   margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+article{
+  margin-bottom: 2rem;
 }
 
 .h1{

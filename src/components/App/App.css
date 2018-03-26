@@ -9,23 +9,7 @@
 
 /* width */
 ::-webkit-scrollbar {
-    margin-top: 8px;
-    width: 10px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    background: white;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: #9FB7CC;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    display: none;
 }
 
 @media screen and (max-width: 400px) {

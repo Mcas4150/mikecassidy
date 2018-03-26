@@ -19,7 +19,7 @@ class Header extends Component {
               <Link to={`/portfolio`} className="plainlink">Portfolio</Link>
             </li>
             <li>
-              <a className="b plainlink" href="https://github.com/Mcas4150">Github</a>
+            <Link to={`/contact`} className="plainlink">Contact</Link>
             </li>
           </ul>
         </nav>
