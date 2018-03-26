@@ -39,52 +39,7 @@
         margin-bottom: 1.5rem;
   }
 }
-/*.arrow{
-  font-size: 2rem;
-  color: white;
-  align-self: center;
-}
 
-
-
-
-
- .nav li+li {
-    margin-left: calc(1.5rem / 2);
-}
-.l-border{
-  border-bottom: 2px solid;
-  border-left: 2px solid;
-  padding-left: 5px;
-  padding-right: 3px;
-}
-
-.r-border{
-   border-bottom: 2px solid;
-  border-right: 2px solid;
-  padding-right: 5px;
-  padding-left: 3px;
-}
-
-.left{
-
-  grid-area:left;
-}
-
-.center{
-  grid-area: center;
-}
-
-.right{
-
-  grid-area: right;
-}*/
-
-
-/*
-.l-border:hover, .r-border:hover{
-  border: 2px solid;
-}*/
 .header{
   font-weight: 600;
   font-size: 1.5rem;
