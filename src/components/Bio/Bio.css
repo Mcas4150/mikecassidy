@@ -12,7 +12,7 @@
 }
 
 .skills {
-  display: flex;
+  display: grid;
   justify-content: center;
   align-items: center;
   flex-direction: row;
@@ -75,7 +75,13 @@ p {
       font-size: 1rem;
     }
   .greeting{
-    margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+  }
+  .skills{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  article{
+    margin-bottom: 0;
   }
 }

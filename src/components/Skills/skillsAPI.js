@@ -3,7 +3,7 @@ const SkillsAPI = {
     { name: "React.js", link: "https://reactjs.org/", image:"devicon-react-original"},
     // { name: "Redux", link: "https://redux.js.org/", image:"https://i.imgur.com/T1hwnYD.png"},
     { name: "Node.js", link: "https://nodejs.org/en/", image:"devicon-nodejs-plain"},
-    { name: "Ruby on Rails", link: "http://rubyonrails.org/", image:"devicon-rails-plain"},
+    { name: "Rails", link: "http://rubyonrails.org/", image:"devicon-rails-plain"},
     { name: "Javascript", link: "https://www.javascript.com/", image:"devicon-javascript-plain"},
     { name: "Mongodb", link: "https://mongodb.com", image:"devicon-mongodb-plain"},
     { name: "Express", link: "https://expressjs.com/", image:"devicon-express-original"},
