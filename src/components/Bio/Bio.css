@@ -69,8 +69,15 @@ p {
     -webkit-margin-end: 0px;
 }
 
+@media screen and (min-width: 1000px) {
+  .skills{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+}
 
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 999px) {
   .h1{
       font-size: 1rem;
     }
@@ -80,6 +87,7 @@ p {
   }
   .skills{
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
   article{
     margin-bottom: 0;

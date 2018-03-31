@@ -7,8 +7,10 @@ import ProjectAPI from '../../api'
 class Portfolio extends Component {
   render() {
     return (
-
+      <div>
+        {/* <div className="greeting">My Projects</div> */}
         <div className="portfolio">
+          
           {
             ProjectAPI.all().map(p => (
                   <div className="">
@@ -28,6 +30,7 @@ class Portfolio extends Component {
                 ))
               }
         </div>
+      </div>
     );
   }
 }
