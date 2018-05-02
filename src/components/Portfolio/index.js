@@ -17,6 +17,7 @@ class Portfolio extends Component {
 
                       <div className="">
                         <div className="text">
+                         
                           <a href={p.url} target="_blank">
                             <h2>{p.name}</h2>
                           </a>
