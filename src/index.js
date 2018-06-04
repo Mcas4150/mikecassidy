@@ -1,24 +1,19 @@
-import React from 'react';
+import React from "react";
 // import ReactDOM from 'react-dom';
 // import './index.css';
-import App from './components/App/index';
+import App from "./components/App/index";
 
-import { render } from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-
-
-
-
+import { render } from "react-dom";
+import { BrowserRouter } from "react-router-dom";
 
 // import './styles/global.sass';
-
-
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // registerServiceWorker();
 
-render((
+render(
   <BrowserRouter>
     <App />
-  </BrowserRouter>
-), document.getElementById('root'));
+  </BrowserRouter>,
+  document.getElementById("root")
+);

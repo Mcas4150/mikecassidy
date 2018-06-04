@@ -2,14 +2,12 @@
   margin-bottom: 3.5556rem;
 }
 
-
-p{
-  font-family: 'Poppins', sans-serif;
+p {
+  font-family: "Poppins", sans-serif;
 }
-
 
 @media screen and (max-width: 400px) {
-.main {
-  margin-bottom: 1.5rem;
-}
+  .main {
+    margin-bottom: 1.5rem;
+  }
 }

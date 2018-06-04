@@ -1,48 +1,48 @@
-.grid{
+.grid {
   display: grid;
-  grid-template-areas: "contact employment"
-                       "education volunteer"
-                       "skills pdf"
-
-  ;
+  grid-template-areas:
+    "contact employment"
+    "education volunteer"
+    "skills pdf";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
 }
 
-.CV{
-  font-family: 'Poppins', serif;
+.CV {
+  font-family: "Poppins", serif;
 }
 
-[class*=" devicon-"], [class^=devicon-]{
+[class*=" devicon-"],
+[class^="devicon-"] {
   font-size: 1.5rem;
 }
 
-.contact{
+.contact {
   grid-area: contact;
 }
 
-.skills{
+.skills {
   display: grid;
-  grid-area:skills;
+  grid-area: skills;
 }
 
 .skill-name {
   text-decoration: none;
 }
 
-.education{
+.education {
   grid-area: education;
 }
 
-.employment{
+.employment {
   grid-area: employment;
 }
 
-.volunteer{
+.volunteer {
   grid-area: volunteer;
 }
 
-.pdf{
+.pdf {
   grid-area: pdf;
 }
 
@@ -50,29 +50,30 @@
   background-color: #eeeee5;
 } */
 
-.employer, .institution{
-  font-style:italic;
+.employer,
+.institution {
+  font-style: italic;
 }
 
-.entry, .contact{
+.entry,
+.contact {
   padding-bottom: 1.5rem;
 }
 
-
-@media screen and (max-width: 700px){
-  .entry, .contact{
-  padding-bottom: 1rem;
-  font-size: .875rem;
-}
-
-  .grid{
-  grid-template-areas: "employment employment"
-                       "education volunteer"
-                       "skills pdf"
-
-    ;
+@media screen and (max-width: 700px) {
+  .entry,
+  .contact {
+    padding-bottom: 1rem;
+    font-size: 0.875rem;
   }
-  .skills{
+
+  .grid {
+    grid-template-areas:
+      "employment employment"
+      "education volunteer"
+      "skills pdf";
+  }
+  .skills {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }

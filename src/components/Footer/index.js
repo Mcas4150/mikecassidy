@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import './styles.css';
-import '../../globalstyle.css';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import "./styles.css";
+import "../../globalstyle.css";
 
 class Footer extends Component {
   render() {

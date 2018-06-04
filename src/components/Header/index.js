@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import './header.css';
-import '../../globalstyle.css';
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
+import "./header.css";
+import "../../globalstyle.css";
 
 class Header extends Component {
   render() {
@@ -10,13 +10,19 @@ class Header extends Component {
         <nav role="navigation">
           <ul className="nav">
             <li>
-              <Link to={`/`} className="plainlink">About</Link>
+              <Link to={`/`} className="plainlink">
+                About
+              </Link>
             </li>
             <li>
-              <Link to={`/portfolio`} className="plainlink">Portfolio</Link>
+              <Link to={`/portfolio`} className="plainlink">
+                Portfolio
+              </Link>
             </li>
             <li>
-            <Link to={`/contact`} className="plainlink">Contact</Link>
+              <Link to={`/contact`} className="plainlink">
+                Contact
+              </Link>
             </li>
           </ul>
         </nav>

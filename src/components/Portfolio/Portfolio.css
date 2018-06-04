@@ -1,9 +1,6 @@
-.portfolio{
+.portfolio {
   padding: 0 1rem;
 }
-
-
-
 
 .text {
   color: black;
@@ -11,19 +8,17 @@
   margin-bottom: 1.7778rem;
 }
 
-.text a{
-  text-decoration:none;
+.text a {
+  text-decoration: none;
 }
 
-h2{
+h2 {
   font-size: 1rem;
   font-weight: 600;
-  font-family: 'helvetica';
-/*  margin-bottom: 1.7778rem;*/
+  font-family: "helvetica";
+  /*  margin-bottom: 1.7778rem;*/
 }
 
-
-p+h2{
+p + h2 {
   margin-bottom: 1.7778rem;
 }
-
