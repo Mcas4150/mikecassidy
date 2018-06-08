@@ -2,13 +2,13 @@
   "name": "project8",
   "version": "0.1.0",
   "description": "Mike Cassidy's personal portfolio page",
-  "keywords": "Portfolio",
-  "licenses": "MIT",
+  "keywords": ["Portfolio", "personal website"]
+  "licenses": ["MIT"],
   "author": "Mike Cassidy",
   "contributors": [
     "Mike Cassidy"
   ],
-  "bugs": "none",
+  "bugs": "mikecassidy0000@gmail.com",
   "repository": "https://github.com/Mcas4150/mikecassidy",
   "private": true,
   "dependencies": {
