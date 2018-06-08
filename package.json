@@ -2,7 +2,7 @@
   "name": "project8",
   "version": "0.1.0",
   "description": "Mike Cassidy's personal portfolio page",
-  "keywords": ["Portfolio", "personal website"]
+  "keywords": ["Portfolio", "personal website"],
   "licenses": ["MIT"],
   "author": "Mike Cassidy",
   "contributors": [
