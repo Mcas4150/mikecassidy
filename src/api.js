@@ -1,6 +1,21 @@
 const ProjectAPI = {
   projects: [
     {
+      name: "Irish Cultural Centre (Ongoing)",
+      image: "https://i.imgur.com/I2uMbmw.jpg",
+      description:
+        "Redesigned webpage for the Irish Cultural Centre of New England",
+      url: "https://irishculture.herokuapp.com",
+      github: "https://github.com/Mcas4150/irishculturalcentre"
+    },
+    {
+      name: "Sneakatrax",
+      image: "https://i.imgur.com/I2uMbmw.jpg",
+      description: "Music-sharing platform built using MERN stack",
+      url: "https://sneakatrax.herokuapp.com",
+      github: "https://github.com/Mcas4150/sneakatrax"
+    },
+    {
       name: "Bentennas(beta)",
       image: "https://i.imgur.com/I2uMbmw.jpg",
       description: "An internet radio station inspired by NTS radio",
@@ -20,7 +35,7 @@ const ProjectAPI = {
       image: "https://i.imgur.com/I2uMbmw.jpg",
       description:
         "An E-commerce store prototype for Montreal's finest vinyl record purveyor",
-      url: "http://fierce-waters-95137.herokuapp.com/",
+      url: "http://larama.herokuapp.com/",
       github: "https://github.com/Mcas4150/La-Rama-Records"
     },
     {
