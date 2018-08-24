@@ -58,7 +58,7 @@ class Contact extends Component {
           <li className="socials__list-item">
             <a
               className="socials__item light-theme--link"
-              href="https://www.dropbox.com/s/970oz51rv8bbsyb/Mike%20Cassidy%20Resume%202018.pdf?dl=0"
+              href="https://www.dropbox.com/home/Resume?preview=Mike+Cassidy+Current+Resume.pdf"
               target="_blank"
             >
               <span
