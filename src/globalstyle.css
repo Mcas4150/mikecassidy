@@ -6,8 +6,8 @@
 body {
   /* background-color: #333;
   color: #333; */
-  background-color: black;
-  color: whitesmoke;
+  background-color: #1d1e1f;
+  color: #d6d6d6;
   /* background-color: #272a33; */
   /* color: #ccc; */
 }
@@ -21,7 +21,7 @@ body {
 }
 
 a {
-  color: white;
+  color: #d6d6d6;
   display: inline-block;
   margin: 0;
   text-decoration: none;
@@ -48,7 +48,7 @@ a:hover:after {
 
 p {
   line-height: 150%;
-
+  color: #d6d6d6;
   font-family: "Slabo", serif;
 }
 

@@ -2,8 +2,8 @@
   /* background: #23262d; */
 }
 
-text {
-  z-index: 1;
+.text {
+  color: #d6d6d6;
 }
 
 .section__subtitle {

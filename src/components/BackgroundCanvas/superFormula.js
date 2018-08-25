@@ -110,7 +110,7 @@ export default class superFormula extends Component {
         }
       }
 
-      context.fillStyle = "rgb(0,0,0)";
+      context.fillStyle = "#1d1e1f";
       context.fillRect(0, 0, width, height);
 
       // angleX+=((mouseX/width)-0.5)/4;

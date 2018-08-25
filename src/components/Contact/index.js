@@ -19,14 +19,14 @@ class Contact extends Component {
           <li className="socials__list-item">
             <a
               className="socials__item light-theme--link"
-              href="mailto:mikecassidy0000@gmail.com"
+              href="mailto:me@mikecassidy.info"
               target="_blank"
             >
               <span
                 className="icon icon--social icon-mail-alt"
                 aria-hidden="true"
               />
-              <p className="mail">mikecassidy0000@gmail.com</p>
+              <p className="mail">me@mikecassidy.info</p>
             </a>
           </li>
           <li className="socials__list-item">

@@ -11,7 +11,7 @@ class Bio extends Component {
     return (
       <div className="bio">
         <div className="text">
-          <div className="greeting">Hi, I'm Mike</div>
+          <div className="greeting">Mike Cassidy</div>
           <article className="bio h1">
             <p>
               I'm a 26 year-old web developer with an affinity for functional
