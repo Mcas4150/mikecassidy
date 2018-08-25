@@ -1,5 +1,6 @@
 .main {
   margin-bottom: 3.5556rem;
+  z-index: 1;
 }
 
 p {

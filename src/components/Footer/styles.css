@@ -7,4 +7,5 @@
   justify-content: center;
   font-size: 0.75rem;
   transition: all 0.7s;
+  z-index: 1;
 }

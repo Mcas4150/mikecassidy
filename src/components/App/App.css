@@ -2,26 +2,24 @@
   min-height: calc(100vh - 2em);
   font-family: "Poppins";
   margin: 1rem;
-  background: #fffff5;
-  background-image: url('https://i.imgur.com/jHbv6Pc.png');
+  /* background: #fffff5;
+  background-image: url('https://i.imgur.com/jHbv6Pc.png'); */
 }
-
-
 
 /* width */
 ::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 @media screen and (max-width: 400px) {
-  .App{
-  font-size: .875rem;
-  margin: .5rem;
+  .App {
+    font-size: 0.875rem;
+    margin: 0.5rem;
   }
-  .h1{
+  .h1 {
     font-size: 1rem;
   }
-  .nav li+li {
+  .nav li + li {
     margin-left: calc(1.5rem / 2);
-}
+  }
 }

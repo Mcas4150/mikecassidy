@@ -1,7 +1,10 @@
-.bio{
-  background-color: #23262Dc;
+.bio {
+  /* background: #23262d; */
 }
 
+text {
+  z-index: 1;
+}
 
 .section__subtitle {
   text-align: center;
@@ -32,13 +35,12 @@
   margin: 1rem;
 }
 
-
-[class*=" devicon-"], [class^=devicon-]{
+[class*=" devicon-"],
+[class^="devicon-"] {
   font-size: 2rem;
 }
 
-
-.greeting{
+.greeting {
   font-size: 3.5rem;
   font-weight: bold;
   text-align: center;
@@ -47,49 +49,48 @@
   font-family: "Roboto", serif;
 }
 
-article{
+article {
   margin-bottom: 2rem;
   padding: 1rem;
 }
 
-.h1{
+.h1 {
   font-size: 1.2rem;
   font-weight: 400;
 }
 
-p+p {
-    text-indent: 1.5em;
+p + p {
+  text-indent: 1.5em;
 }
 
 p {
-    margin:0;
-    display: block;
-    -webkit-margin-after: .25rem;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
+  margin: 0;
+  display: block;
+  -webkit-margin-after: 0.25rem;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
 }
 
 @media screen and (min-width: 1000px) {
-  .skills{
+  .skills {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr;
   }
 }
 
-
 @media screen and (max-width: 999px) {
-  .h1{
-      font-size: 1rem;
-    }
-  .greeting{
-    margin-bottom: .5rem;
-    margin-top: .5rem;
+  .h1 {
+    font-size: 1rem;
   }
-  .skills{
+  .greeting {
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .skills {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
-  article{
+  article {
     margin-bottom: 0;
   }
 }
