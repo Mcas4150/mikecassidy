@@ -33,6 +33,10 @@ export default class outerSpace extends Component {
       points.push(point);
     }
 
+    function getRandomColor(min, max) {
+      return Math.random() * (max - min) + min;
+    }
+
     function draw() {
       // This just clears the screen
       context.fillStyle = "255";
@@ -75,8 +79,7 @@ export default class outerSpace extends Component {
         // Draw a square of size 'scale', in position x2d, y2d.
         // This code is more complex than you might be used to because it's pure JS.
         context.lineWisdth = scale;
-        context.strokeStyle =
-          "#" + Math.floor(Math.random() * 16777215).toString(16);
+        context.strokeStyle = "rgb(255,255,255)";
         context.beginPath();
         context.moveTo(x2d, y2d);
         context.lineTo(x2d + scale, y2d);
