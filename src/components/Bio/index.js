@@ -16,14 +16,9 @@ class Bio extends Component {
             <p>
               I'm a web developer with an affinity for functional structures,
               sound design, and human-computer interaction. I currently live in
-              Boston.
-            </p>
-            <p>
-              Previously, I've worked with autistic children as an applied
-              behavioral analyst and at a music distributor. I now specialize in
-              full stack development and audio/visual programming.
-            </p>
-            <p>
+              Boston. Previously, I've worked with autistic children as an
+              applied behavioral analyst and at a music distributor. I now
+              specialize in full stack development and audio/visual programming.
               I spend my time listening, learning, building electronics, and
               writing code. Please take a look at my résumé or send me an email
               if you would like to be in touch.

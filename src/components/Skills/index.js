@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import SkillsAPI from "./skillsAPI";
-import { Link } from "react-router-dom";
+
 import "./Skills.css";
 
 class Skills extends Component {

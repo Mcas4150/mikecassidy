@@ -9,11 +9,11 @@ class Contact extends Component {
           <li className="socials__list-item">
             <a
               className="socials__item light-theme--link"
-              href="tel:509581510"
+              href="tel:6174480635"
               target="_blank"
             >
               <span className="icon icon__social" aria-hidden="true " />
-              <p className="phone">617 448 0635</p>
+              <p className="phone">617-448-0635</p>
             </a>
           </li>
           <li className="socials__list-item">
@@ -26,7 +26,7 @@ class Contact extends Component {
                 className="icon icon--social icon-mail-alt"
                 aria-hidden="true"
               />
-              <p className="mail">me@mikecassidy.info</p>
+              <p className="mail">Email</p>
             </a>
           </li>
           <li className="socials__list-item">
@@ -58,7 +58,7 @@ class Contact extends Component {
           <li className="socials__list-item">
             <a
               className="socials__item light-theme--link"
-              href="https://www.dropbox.com/home/Resume?preview=Mike+Cassidy+Current+Resume.pdf"
+              href="https://www.dropbox.com/s/ce1klqyt9hd9lrx/Mike%20Cassidy%20Current%20Resume.pdf?dl=0"
               target="_blank"
             >
               <span

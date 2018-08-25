@@ -1,7 +1,7 @@
 const ProjectAPI = {
   projects: [
     {
-      name: "Irish Cultural Centre (Ongoing)",
+      name: "(Ongoing) Irish Cultural Centre",
       image: "https://i.imgur.com/I2uMbmw.jpg",
       description:
         "Redesigned webpage for the Irish Cultural Centre of New England",
