@@ -13,7 +13,7 @@ class Bio extends Component {
         <div className="text">
           <div className="greeting">Mike Cassidy</div>
           <article className="bio h1">
-            <p>
+            <p className="indent">
               I'm a web developer with an affinity for functional structures,
               sound design, and human-computer interaction. I currently live in
               Boston. Previously, I've worked with autistic children as an
