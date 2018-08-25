@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from "react";
+import React, { Component } from "react";
 import "../../globalstyle.css";
 import "./App.css";
 import Header from "../Header/index";

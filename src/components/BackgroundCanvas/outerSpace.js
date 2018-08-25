@@ -35,7 +35,7 @@ export default class outerSpace extends Component {
 
     function draw() {
       // This just clears the screen
-      context.fillStyle = "#1d1e1f";
+      context.fillStyle = "255";
       context.fillRect(0, 0, width, height);
 
       // This loop takes a bunch of 3D vertices and draws them using a 2D perspective projection

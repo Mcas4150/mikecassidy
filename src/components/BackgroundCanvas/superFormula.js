@@ -9,7 +9,7 @@ export default class superFormula extends Component {
     var context = canvas.getContext("2d");
     canvas.setAttribute("width", width);
     canvas.setAttribute("height", height);
-    canvas.addEventListener("mousemove", getMouse, false);
+    // canvas.addEventListener("mousemove", getMouse, false);
     var mouseX = 0;
     var mouseY = 0;
 
@@ -110,7 +110,7 @@ export default class superFormula extends Component {
         }
       }
 
-      context.fillStyle = "#1d1e1f";
+      context.fillStyle = "255";
       context.fillRect(0, 0, width, height);
 
       // angleX+=((mouseX/width)-0.5)/4;
@@ -181,7 +181,7 @@ export default class superFormula extends Component {
 
           // context.strokeStyle = "rgba(" + i +"," + j +"," + 0 + "," + scale/2 + ")";
 
-          context.strokeStyle = "rgb(255,255,255)";
+          context.strokeStyle = "#5387B1";
           context.beginPath();
           context.moveTo(lastx2d + lastScale, lasty2d);
           context.lineTo(x2d + scale, y2d);
@@ -195,7 +195,7 @@ export default class superFormula extends Component {
 
           // if it's the end of the current ring, join it to the first
 
-          if (j == dim - 1) {
+          if (j === dim - 1) {
             context.lineWidth = scale;
 
             //context.strokeStyle = "rgb(255,255,255)";
@@ -245,18 +245,18 @@ export default class superFormula extends Component {
     }
 
     //here's our function 'getMouse'.
-    function getMouse(mousePosition) {
-      //for other browsers..
-      if (mousePosition.layerX || mousePosition.layerX === 0) {
-        // Firefox?
-        mouseX = mousePosition.layerX;
-        mouseY = mousePosition.layerY;
-      } else if (mousePosition.offsetX || mousePosition.offsetX === 0) {
-        // Opera?
-        mouseX = mousePosition.offsetX;
-        mouseY = mousePosition.offsetY;
-      }
-    }
+    // function getMouse(mousePosition) {
+    //   //for other browsers..
+    //   if (mousePosition.layerX || mousePosition.layerX === 0) {
+    //     // Firefox?
+    //     mouseX = mousePosition.layerX;
+    //     mouseY = mousePosition.layerY;
+    //   } else if (mousePosition.offsetX || mousePosition.offsetX === 0) {
+    //     // Opera?
+    //     mouseX = mousePosition.offsetX;
+    //     mouseY = mousePosition.offsetY;
+    //   }
+    // }
   }
 
   render() {
