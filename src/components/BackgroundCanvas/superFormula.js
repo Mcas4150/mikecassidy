@@ -9,7 +9,7 @@ export default class superFormula extends Component {
     var context = canvas.getContext("2d");
     canvas.setAttribute("width", width);
     canvas.setAttribute("height", height);
-    // canvas.addEventListener("mousemove", getMouse, false);
+    canvas.addEventListener("mousemove", getMouse, false);
     var mouseX = 0;
     var mouseY = 0;
 
@@ -33,7 +33,7 @@ export default class superFormula extends Component {
     var lastx2d = 0;
     var lasty2d = 0;
 
-    var elements = 300;
+    var elements = 100;
     var x,
       y = 0;
     var lastX,
@@ -51,7 +51,7 @@ export default class superFormula extends Component {
     var a = 1;
 
     // The below code creates a sphere of points
-    var dim = 100; // This is the number of rings
+    var dim = 50; // This is the number of rings
     // Each ring has as many points as there are rings
     // This is the spacing for each ring
     var spacing = (Math.PI * 2) / dim;
@@ -244,19 +244,18 @@ export default class superFormula extends Component {
       point3d[2] = z;
     }
 
-    //here's our function 'getMouse'.
-    // function getMouse(mousePosition) {
-    //   //for other browsers..
-    //   if (mousePosition.layerX || mousePosition.layerX === 0) {
-    //     // Firefox?
-    //     mouseX = mousePosition.layerX;
-    //     mouseY = mousePosition.layerY;
-    //   } else if (mousePosition.offsetX || mousePosition.offsetX === 0) {
-    //     // Opera?
-    //     mouseX = mousePosition.offsetX;
-    //     mouseY = mousePosition.offsetY;
-    //   }
-    // }
+    function getMouse(mousePosition) {
+      //for other browsers..
+      if (mousePosition.layerX || mousePosition.layerX === 0) {
+        // Firefox?
+        mouseX = mousePosition.layerX;
+        mouseY = mousePosition.layerY;
+      } else if (mousePosition.offsetX || mousePosition.offsetX === 0) {
+        // Opera?
+        mouseX = mousePosition.offsetX;
+        mouseY = mousePosition.offsetY;
+      }
+    }
   }
 
   render() {

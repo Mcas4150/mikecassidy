@@ -1,15 +1,11 @@
 .portfolio {
   display: grid;
+  z-index: -4;
 }
 
 .portfolio-item {
   margin: 1rem;
-}
-
-.text {
-  color: white;
-  margin-top: calc(1.7778rem / 2);
-  margin-bottom: 1.7778rem;
+  padding: 1rem;
 }
 
 .text a {
@@ -21,10 +17,6 @@ h2 {
   font-weight: 600;
   font-family: "helvetica";
   /*  margin-bottom: 1.7778rem;*/
-}
-
-p + h2 {
-  margin-bottom: 1.7778rem;
 }
 
 @media screen and (min-width: 1000px) {
