@@ -1,6 +1,6 @@
 .portfolio {
   display: grid;
-  z-index: -4;
+  z-index: 1;
 }
 
 .portfolio-item {

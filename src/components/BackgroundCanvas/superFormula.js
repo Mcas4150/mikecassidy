@@ -10,8 +10,8 @@ export default class superFormula extends Component {
     canvas.setAttribute("width", width);
     canvas.setAttribute("height", height);
     canvas.addEventListener("mousemove", getMouse, false);
-    var mouseX = 0;
-    var mouseY = 0;
+    var mouseX = 550;
+    var mouseY = 550;
 
     var fov = 500;
 
