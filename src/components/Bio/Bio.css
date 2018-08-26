@@ -49,7 +49,7 @@
   text-align: center;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  font-family: "Roboto", serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 
 article {
@@ -76,8 +76,17 @@ p {
 
 @media screen and (min-width: 1000px) {
   .skills {
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+  article {
+    margin-bottom: 2rem;
+
+    padding: 1rem;
+    padding-left: 25%;
+    padding-right: 25%;
   }
 }
 

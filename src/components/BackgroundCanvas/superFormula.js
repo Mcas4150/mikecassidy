@@ -13,6 +13,10 @@ export default class superFormula extends Component {
     var mouseX = 550;
     var mouseY = 550;
 
+    context.mozImageSmoothingEnabled = false;
+    context.webkitImageSmoothingEnabled = false;
+    context.msImageSmoothingEnabled = false;
+    context.imageSmoothingEnabled = false;
     var fov = 500;
 
     var point = [];
