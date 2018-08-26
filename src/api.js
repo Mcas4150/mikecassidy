@@ -1,14 +1,6 @@
 const ProjectAPI = {
   projects: [
     {
-      name: "(Ongoing) Irish Cultural Centre",
-      image: "https://i.imgur.com/I2uMbmw.jpg",
-      description:
-        "Redesigned webpage for the Irish Cultural Centre of New England",
-      url: "https://irishculture.herokuapp.com",
-      github: "https://github.com/Mcas4150/irishculturalcentre"
-    },
-    {
       name: "Sneakatrax",
       image: "https://i.imgur.com/I2uMbmw.jpg",
       description: "Music-sharing platform built using MERN stack",
@@ -45,6 +37,14 @@ const ProjectAPI = {
         "A musician tour date page inspired by the infamous blue screen of death",
       url: "http://guarded-plains-27954.herokuapp.com",
       github: "https://github.com/Mcas4150/Isabella"
+    },
+    {
+      name: "Irish Cultural Centre",
+      image: "https://i.imgur.com/I2uMbmw.jpg",
+      description:
+        "Redesigned webpage for the Irish Cultural Centre of New England",
+      url: "https://irishculture.herokuapp.com",
+      github: "https://github.com/Mcas4150/irishculturalcentre"
     }
   ],
   all: function() {
