@@ -10,6 +10,11 @@ export default class outerSpace extends Component {
     canvas.setAttribute("width", width);
     canvas.setAttribute("height", height);
 
+    context.mozImageSmoothingEnabled = false;
+    context.webkitImageSmoothingEnabled = false;
+    context.msImageSmoothingEnabled = false;
+    context.imageSmoothingEnabled = false;
+
     var fov = 200;
 
     var point = [];
