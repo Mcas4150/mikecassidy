@@ -145,7 +145,7 @@ export default class superFormula extends Component {
           // Calculate the rotation
 
           rotateX(point3d, angleX);
-          rotateY(point3d, angleY);
+          rotateY(point3d, angleY) * 5;
 
           // Get the point in position
 
