@@ -45,14 +45,6 @@ const ProjectAPI = {
         "A musician tour date page inspired by the infamous blue screen of death",
       url: "http://guarded-plains-27954.herokuapp.com",
       github: "https://github.com/Mcas4150/Isabella"
-    },
-    {
-      name: "Commons",
-      image: "https://i.imgur.com/I2uMbmw.jpg",
-      description:
-        "An Airbnb clone for creative space usage. Le Wagon Bootcamp collaborative final project",
-      url: "http://www.commons.fun/",
-      github: "https://github.com/Mcas4150/COMMONS"
     }
   ],
   all: function() {
