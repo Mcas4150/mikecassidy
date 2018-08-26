@@ -35,10 +35,11 @@ h2 {
 
 @media screen and (max-width: 599px) {
   .portfolio {
-    grid-template-columns: 1fr;
-    grid-template-areas: "portfolio-item";
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "portfolio-item portfolio-item";
   }
   .portfolio-item {
-    margin: 0.5rem 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
   }
 }

@@ -97,7 +97,7 @@ p {
   }
   .greeting {
     margin: 0rem;
-    margin-top: 0.5rem;
+
     font-size: 3rem;
   }
   .skills {
@@ -110,5 +110,8 @@ p {
   }
   .section__subtitle {
     margin: 0.25rem;
+  }
+  .skills__skill {
+    margin: 0.5rem;
   }
 }
