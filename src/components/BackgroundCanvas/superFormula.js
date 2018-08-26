@@ -55,7 +55,7 @@ export default class superFormula extends Component {
     var a = 1;
 
     // The below code creates a sphere of points
-    var dim = 75; // This is the number of rings
+    var dim = 50; // This is the number of rings
     // Each ring has as many points as there are rings
     // This is the spacing for each ring
     var spacing = (Math.PI * 2) / dim;
