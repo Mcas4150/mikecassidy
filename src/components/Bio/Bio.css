@@ -105,6 +105,10 @@ p {
     grid-template-rows: 1fr 1fr;
   }
   article {
+    padding: 0.5rem;
     margin-bottom: 0;
+  }
+  .section__subtitle {
+    margin: 0.25rem;
   }
 }
