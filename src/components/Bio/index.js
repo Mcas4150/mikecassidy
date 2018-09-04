@@ -19,9 +19,9 @@ class Bio extends Component {
               worked with autistic children as an applied behavioral analyst and
               at a music distributor. I now specialize in fullstack application
               development and audio/visual programming. I spend my time
-              listening, learning, building electronics, and writing code, and
-              currently live in Boston. Please take a look at my résumé or send
-              me an email if you'd like to be in touch.
+              listening, learning, building electronics, and writing code,
+              currently in Boston. Please take a look at my résumé or send me an
+              email if you'd like to be in touch.
             </p>
           </article>
 
