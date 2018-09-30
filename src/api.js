@@ -33,8 +33,7 @@ const ProjectAPI = {
     {
       name: "Isabella",
       image: "https://i.imgur.com/I2uMbmw.jpg",
-      description:
-        "tour page inspired by the Blue Screen of Death",
+      description: "tour page inspired by the Blue Screen of Death",
       url: "http://guarded-plains-27954.herokuapp.com",
       github: "https://github.com/Mcas4150/Isabella"
     },
@@ -45,6 +44,13 @@ const ProjectAPI = {
         "Redesigned webpage for the Irish Cultural Centre of New England",
       url: "https://irishculture.herokuapp.com",
       github: "https://github.com/Mcas4150/irishculturalcentre"
+    },
+    {
+      name: "WeatherMap",
+      image: "https://i.imgur.com/I2uMbmw.jpg",
+      description: "Weather App built with React.js and Openweather Api",
+      url: "https://weathermap-mikecassidy.herokuapp.com",
+      github: "https://github.com/Mcas4150/OpenweatherReact"
     }
   ],
   all: function() {
