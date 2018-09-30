@@ -34,7 +34,7 @@ const ProjectAPI = {
       name: "Isabella",
       image: "https://i.imgur.com/I2uMbmw.jpg",
       description:
-        "A musician tour date page inspired by the infamous blue screen of death",
+        "tour page inspired by the Blue Screen of Death",
       url: "http://guarded-plains-27954.herokuapp.com",
       github: "https://github.com/Mcas4150/Isabella"
     },
