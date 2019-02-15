@@ -7,7 +7,7 @@ class Footer extends Component {
   render() {
     return (
       <footer className="footer wrap">
-        <p>Content © 2018 Mike Cassidy</p>
+        <p>Content © 2019 Mike Cassidy</p>
       </footer>
     );
   }
