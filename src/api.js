@@ -3,7 +3,7 @@ const ProjectAPI = {
     {
       name: "Orphan Radio",
       image: "https://i.imgur.com/I2uMbmw.jpg",
-      description: "An independent online radio station based in Boston",
+      description: "An independent artist collective based in New York City",
       url: "http://bleak.live/",
       github: "https://github.com/Mcas4150/OrphanRadio"
     },
