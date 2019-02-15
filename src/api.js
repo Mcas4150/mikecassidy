@@ -1,11 +1,11 @@
 const ProjectAPI = {
   projects: [
     {
-      name: "Notion Radio",
+      name: "Orphan Radio",
       image: "https://i.imgur.com/I2uMbmw.jpg",
       description: "An independent online radio station based in Boston",
-      url: "http://radionotion.live.s3-website-us-west-2.amazonaws.com",
-      github: "https://github.com/Mcas4150/Bentennas"
+      url: "http://bleak.live/",
+      github: "https://github.com/Mcas4150/OrphanRadio"
     },
 
     {
