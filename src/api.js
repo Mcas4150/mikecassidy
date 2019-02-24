@@ -7,8 +7,14 @@ const ProjectAPI = {
       url: "https://github.com/Mcas4150/Audio-Plugins",
       github: "https://github.com/Mcas4150/Audio-Plugins"
     },
-    
-
+    {
+      name: "Orphan Records.",
+      image: "https://i.imgur.com/I2uMbmw.jpg",
+      description: "An Independent Record Label based in NYC",
+      url: "http://bleak.live/",
+      github: "https://github.com/Mcas4150/OrphanRadio"
+    },
+  
     {
       name: "SynthFolio",
       image: "https://i.imgur.com/I2uMbmw.jpg",
