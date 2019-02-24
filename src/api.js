@@ -1,12 +1,13 @@
 const ProjectAPI = {
   projects: [
     {
-      name: "Orphan Radio",
+      name: "Audio Plugins",
       image: "https://i.imgur.com/I2uMbmw.jpg",
-      description: "An independent artist collective based in New York City",
-      url: "http://bleak.live/",
-      github: "https://github.com/Mcas4150/OrphanRadio"
+      description: "Audio VST/AU plugins, built in C++ using JUCE",
+      url: "https://github.com/Mcas4150/Audio-Plugins",
+      github: "https://github.com/Mcas4150/Audio-Plugins"
     },
+    
 
     {
       name: "SynthFolio",
