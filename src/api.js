@@ -4,8 +4,8 @@ const ProjectAPI = {
       name: "Audio Plugins",
       image: "https://i.imgur.com/I2uMbmw.jpg",
       description: "Audio VST/AU plugins, built in C++ using JUCE",
-      url: "https://github.com/Mcas4150/Audio-Plugins",
-      github: "https://github.com/Mcas4150/Audio-Plugins"
+      url: "https://github.com/Mcas4150/audio-effects",
+      github: "https://github.com/Mcas4150/audio-effects"
     },
     {
       name: "Orphan Records.",
