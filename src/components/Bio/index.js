@@ -20,7 +20,7 @@ class Bio extends Component {
               at a music distributor. I now specialize in fullstack application
               development and audio/visual programming. I spend my time
               listening, learning, building electronics, and writing code,
-              currently in Boston.
+              currently in based in Boston.
             </p>
           </article>
 
