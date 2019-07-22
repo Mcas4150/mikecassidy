@@ -1,6 +1,13 @@
 const ProjectAPI = {
   projects: [
     {
+      name: "PropheC++",
+      image: "https://i.imgur.com/I2uMbmw.jpg",
+      description: "Sequential Circuits Pro-One Synthesizer VST/AU Plugin",
+      url: "https://github.com/Mcas4150/PropheCPlusPlus",
+      github: "https://github.com/Mcas4150/PropheCPlusPlus"
+    },
+    {
       name: "Audio Plugins",
       image: "https://i.imgur.com/I2uMbmw.jpg",
       description: "Audio VST/AU plugins, built in C++ using JUCE",
@@ -11,15 +18,15 @@ const ProjectAPI = {
       name: "Orphan Records.",
       image: "https://i.imgur.com/I2uMbmw.jpg",
       description: "An Independent Record Label based in NYC",
-      url: "http://bleak.live/",
+      url: "http://www.orphan.world",
       github: "https://github.com/Mcas4150/OrphanRadio"
     },
-  
+
     {
       name: "SynthFolio",
       image: "https://i.imgur.com/I2uMbmw.jpg",
       description:
-        "My original portfolio page, which doubles as a synth built with Web Audio API",
+        "My original portfolio, which doubles as a synth using Web Audio API",
       url: "http://synthfolio.herokuapp.com/",
       github: "https://github.com/Mcas4150/SynthFolio"
     },
@@ -31,22 +38,14 @@ const ProjectAPI = {
       github: "https://github.com/Mcas4150/sneakatrax"
     },
     {
-      name: "La Rama",
+      name: "La Rama (Under Renovation)",
       image: "https://i.imgur.com/I2uMbmw.jpg",
       description:
-        "An E-commerce store prototype for Montreal's finest vinyl record purveyor",
+        "A Webstore for Montreal's finest vinyl record purveyor",
       url: "http://larama.herokuapp.com/",
       github: "https://github.com/Mcas4150/La-Rama-Records"
     },
-    {
-      name: "Irish Cultural Centre",
-      image: "https://i.imgur.com/I2uMbmw.jpg",
-      description:
-        "Redesigned webpage for the Irish Cultural Centre of New England",
-      url:
-        "http://irishculturalcentre.com.s3-website-us-west-2.amazonaws.com/home",
-      github: "https://github.com/Mcas4150/irishculturalcentre"
-    },
+
     {
       name: "Isabella",
       image: "https://i.imgur.com/I2uMbmw.jpg",
@@ -61,6 +60,13 @@ const ProjectAPI = {
       description: "Weather App built with React.js and Openweather Api",
       url: "https://weathermap-mikecassidy.herokuapp.com",
       github: "https://github.com/Mcas4150/OpenweatherReact"
+    },
+    {
+      name: "SlideShow",
+      image: "https://i.imgur.com/I2uMbmw.jpg",
+      description: "Slideshow App built with React.js and Mongodb",
+      url: "https://mikecassidyslideshow.herokuapp.com/",
+      github: "https://github.com/Mcas4150/slideshow"
     }
   ],
   all: function() {

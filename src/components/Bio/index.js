@@ -14,14 +14,13 @@ class Bio extends Component {
           <div className="greeting">Mike Cassidy</div>
           <article className="bio h1">
             <p className="indent">
-              I'm a web developer with an affinity for functional structures,
+              A software engineer with an affinity for functional structures,
               sound design, and human-computer interaction. Previously, I've
-              worked with autistic children as an applied behavioral analyst and
+              worked as a music therapist with autistic children and as inventory manager
               at a music distributor. I now specialize in fullstack application
               development and audio/visual programming. I spend my time
               listening, learning, building electronics, and writing code,
-              currently in Boston. Please take a look at my résumé or send me an
-              email if you'd like to be in touch.
+              currently in Boston.
             </p>
           </article>
 

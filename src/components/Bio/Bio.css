@@ -1,6 +1,6 @@
 .indent {
   text-indent: 5%;
-  text-align: center;
+  text-align: justify;
 }
 
 .text {
@@ -15,6 +15,11 @@
   margin-bottom: 0;
   color: #75b4d7;
   margin: 1rem;
+}
+
+.bio-text{
+  white-space: pre-wrap;
+  text-align: justify;
 }
 
 .skills {

@@ -13,7 +13,7 @@ class Contact extends Component {
               target="_blank"
             >
               <span className="icon icon__social" aria-hidden="true " />
-              <p className="phone">617-448-0635</p>
+              <p className="phone">(617) 448-0635</p>
             </a>
           </li>
           <li className="socials__list-item">
@@ -45,7 +45,7 @@ class Contact extends Component {
           <li className="socials__list-item">
             <a
               className="socials__item light-theme--link"
-              href="https://www.linkedin.com/in/mike-cassidy-41847069/"
+              href="https://www.linkedin.com/in/mike-cassidy-developer/"
               target="_blank"
             >
               <span
@@ -58,7 +58,7 @@ class Contact extends Component {
           <li className="socials__list-item">
             <a
               className="socials__item light-theme--link"
-              href="https://www.dropbox.com/s/ce1klqyt9hd9lrx/Mike%20Cassidy%20Current%20Resume.pdf?dl=0"
+              href="https://www.dropbox.com/home/Resume?preview=Mike+Cassidy+Newest+Resume+Word.docx"
               target="_blank"
             >
               <span
