@@ -7,7 +7,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
-        {/* <div className="greeting">My Projects</div> */}
+   
         <div className="portfolio">
           {ProjectAPI.all().map(p => (
             <div className="portfolio-item">
