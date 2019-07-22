@@ -5,7 +5,7 @@ const SkillsAPI = {
       link: "https://reactjs.org/",
       image: "devicon-react-original"
     },
-    // { name: "Redux", link: "https://redux.js.org/", image:"https://i.imgur.com/T1hwnYD.png"},
+  
     {
       name: "Node.js",
       link: "https://nodejs.org/en/",

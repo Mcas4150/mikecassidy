@@ -19,7 +19,7 @@ export default class superFormula extends Component {
     context.imageSmoothingEnabled = false;
     var fov = 500;
 
-    var point = [];
+    
     var point3d = [];
     var angleX = 0;
     var angleY = 0;
@@ -145,7 +145,7 @@ export default class superFormula extends Component {
           // Calculate the rotation
 
           rotateX(point3d, angleX);
-          rotateY(point3d, angleY) * 5;
+          rotateY(point3d, angleY);
 
           // Get the point in position
 

@@ -15,7 +15,7 @@ const Skillset = {
       link: "http://www.cplusplus.com/max",
       image: "devicon-cplusplus-plain"
     },
-    // { name: "Redux", link: "https://redux.js.org/", image:"https://i.imgur.com/T1hwnYD.png"},
+   
     {
       name: "Rails",
       link: "http://rubyonrails.org/",
